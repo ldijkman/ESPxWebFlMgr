@@ -38,6 +38,8 @@ Some Changes, WishList ?:
 
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053531.jpg">
 
+### note: texteditor window size can be changed by dragging right bottom corner
+
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053548.jpg">
 
 ### note: texteditor window size can be changed by dragging right bottom corner
@@ -47,7 +49,9 @@ Some Changes, WishList ?:
 ### note: texteditor window size can be changed by dragging right bottom corner
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/Screenshot_20220123-163211_Chrome.jpg" width="70%">
+
 ---
+
 This is a fork from original FileManager by Holger Lembke
 
 original https://github.com/holgerlembke/ESPxWebFlMgr

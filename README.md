@@ -42,6 +42,7 @@ Some Changes, WishList ?:
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/20220123_150041.jpg">
 
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/Screenshot_20220123-163211_Chrome.jpg" width="70%">
 ---
 This is a fork from original FileManager by Holger Lembke
 

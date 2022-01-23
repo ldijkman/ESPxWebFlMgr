@@ -41,7 +41,6 @@
 
 
 #include <ESP8266WiFi.h>
-#define fileManagerEditEverything
 #define ESPxWebFlMgr_FileSystem LittleFS
 #include <ESPxWebFlMgr.h>
 #include <FS.h>

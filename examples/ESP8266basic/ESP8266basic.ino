@@ -28,7 +28,10 @@
 // SSL Support: "All SSL ciphers (most compatible)"
 
 #include <ESP8266WiFi.h>
+#define ESPxWebFlMgr_FileSystem LittleFS
 #include <ESPxWebFlMgr.h>
+#include <FS.h>
+
 
 const word filemanagerport = 8080;
 
@@ -43,7 +46,7 @@ void setup() {
   ESPxWebFlMgr_FileSystem.begin();
 
   // login into WiFi
-  WiFi.begin("ssid", "pwd");
+  WiFi.begin("Bangert_30_Andijk", "ookikwilerin");
   while (WiFi.status() != WL_CONNECTED) {
     delay(1);
   }
@@ -58,7 +61,6 @@ void setup() {
 
   filemgr.begin();
 }
-
 void loop() {
-  filemgr.handleClient();
+    filemgr.handleClient();
 }

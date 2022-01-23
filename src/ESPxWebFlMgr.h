@@ -62,7 +62,7 @@
 #define fileManagerServerStaticsInternally
 
 // will show the Edit-Button for every file type, even binary and such.
-//#define fileManagerEditEverything
+#define fileManagerEditEverything
 
 class ESPxWebFlMgr {
   private:

@@ -6,7 +6,7 @@
     -- use it. Like in this example.
     -- change it. Set a new value *BEFORE* #including <ESPxWebFlMgr.h>
        Only "#define ESPxWebFlMgr_FileSystem SPIFFS" makes any sense.
-*/ 
+*/
 
 // Board settings
 // Board: "Generic ESP8266 Module"
@@ -27,31 +27,43 @@
 // Espressif FW: "nonos-sdk 2.2.1+100 (190703)"
 // SSL Support: "All SSL ciphers (most compatible)"
 
+
 #include <ESP8266WiFi.h>
 #define ESPxWebFlMgr_FileSystem LittleFS
 #include <ESPxWebFlMgr.h>
 #include <FS.h>
 
 
+String ssid = "Bangert-30-Andijk"; // wifirouter to connect to name broadcasted in the air
+String pass = "ikwilerin";        // wifi router password
+
 const word filemanagerport = 8080;
 
 ESPxWebFlMgr filemgr(filemanagerport); // we want a different port than the webserver
 
+
 void setup() {
-  // the usual Serial stuff....
+
   Serial.begin(115200);
   delay(1000);
   Serial.println("\n\nESP8266WebFlMgr Demo basic");
 
   ESPxWebFlMgr_FileSystem.begin();
 
-  // login into WiFi
-  WiFi.begin("Bangert_30_Andijk", "ookikwilerin");
+  WiFi.begin(ssid, pass);
+  Serial.println("Connecting to WiFi...");
+
+  int i = 0;
   while (WiFi.status() != WL_CONNECTED) {
-    delay(1);
+    delay(1000);
+    Serial.print(i); Serial.print(' ');
+    i++;
   }
+
+  Serial.println(' ');
+
   if (WiFi.status() == WL_CONNECTED) {
-    Serial.print("Open Filemanager with http://");
+    Serial.print("Open Electra\'s FileManager with http://");
     Serial.print(WiFi.localIP());
     Serial.print(":");
     Serial.print(filemanagerport);
@@ -61,6 +73,8 @@ void setup() {
 
   filemgr.begin();
 }
+
+
 void loop() {
-    filemgr.handleClient();
+  filemgr.handleClient();
 }

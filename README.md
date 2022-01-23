@@ -34,6 +34,7 @@ there is no E edit for .txt files
 
 a touch or click on dropzone should open a filebrowsebox for uploading 
 
+maybe a new file create button
 
 ---
 

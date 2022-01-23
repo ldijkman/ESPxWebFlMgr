@@ -32,6 +32,11 @@ Some Changes, WishList ?:
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button
 
+
+<img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053531.jpg">
+
+<img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053548.jpg">
+
 ---
 This is a fork from original FileManager
 
@@ -44,9 +49,6 @@ original https://github.com/holgerlembke/ESPxWebFlMgr
 
 ![this is it](https://raw.githubusercontent.com/holgerlembke/ESP8266WebFlMgr/master/img/screenshot1.png)
 
-<img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053531.jpg">
-
-<img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053548.jpg">
 
 
 ## Usage

@@ -19,7 +19,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
   <body class="background">
     <div id="gc">
         <div class="o1">&nbsp;</div>
-        <div class="o2"><a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra's FileManager</a>&nbsp;</div>
+        <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra's FileManager</a>&nbsp;</div>
         <div class="o3" id="o3">&nbsp;</div>
         <div class="o4">&nbsp;</div>
 

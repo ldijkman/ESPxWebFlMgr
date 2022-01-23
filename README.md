@@ -32,6 +32,8 @@ some changes?, extra colomn/row for preview files in browser, maybe small icons 
 
 there is no E edit for .txt files
 
+a touch or click on dropzone should open a filebrowsebox for uploading 
+
 
 ---
 

@@ -29,7 +29,7 @@ Would like to run this on ESPAsyncWebServer
 
 Some Changes, WishList ?:
 - run on ESPAsyncWebServer 
-- extra colomn/row for preview files in browser
+- X extra colomn/row for preview files in browser == i have added a V button
 - maybe small icons instead of letters
 - X there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
@@ -50,6 +50,12 @@ Some Changes, WishList ?:
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/Screenshot_20220123-163211_Chrome.jpg" width="70%">
 
+- X extra colomn/row for preview files in browser == i have added a V button
+- 
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/Screenshot_20220123-213316_Chrome.jpg">
+
+- X extra colomn/row for preview files in browser == i have added a V button
+- 
 ---
 
 This is a fork from original FileManager by Holger Lembke

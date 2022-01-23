@@ -2,13 +2,17 @@
 
 # ESPxWebFlMgr
 
-download zip 
+### howto run this on a ESP8266
+
+download zip => https://github.com/ldijkman/ESPxWebFlMgr/archive/refs/heads/master.zip
 
 arduino ide=>sketch=>include library=>add zip library
 
 arduino ide=>file=>examples=>ESP8266 Web File Manager => ESP8266basic   example
 
 line 46 fill ssid and pasword for your wifirouter connection
+
+run it and browse to the ip what is given in serial monitor
 
 ---
 This is a fork from original FileManager

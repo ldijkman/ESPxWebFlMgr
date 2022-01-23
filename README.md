@@ -31,7 +31,7 @@ Some Changes, WishList ?:
 - run on ESPAsyncWebServer 
 - extra colomn/row for preview files in browser
 - maybe small icons instead of letters
-- there is no E edit for .txt files
+- X there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button
 

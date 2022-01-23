@@ -40,7 +40,11 @@ Some Changes, WishList ?:
 
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053548.jpg">
 
+### note: texteditor window size can be changed by dragging right bottom corner
+
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/20220123_150041.jpg">
+
+### note: texteditor window size can be changed by dragging right bottom corner
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/Screenshot_20220123-163211_Chrome.jpg" width="70%">
 ---

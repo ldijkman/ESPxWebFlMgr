@@ -28,6 +28,8 @@ Would like to run this on espasyncwebserver for Electra https://github.com/ldijk
 
 some changes?, extra colomn/row for preview files in browser, maybe small icons instead of letters
 
+there is no E edit for .txt files
+
 
 ---
 

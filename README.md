@@ -20,7 +20,11 @@ This is a fork from original FileManager
 original https://github.com/holgerlembke/ESPxWebFlMgr
 ---
 
-would like to run this on espasyncwebserver for Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
+# Edit Electra's Skin online inbrowser filemanager
+
+Would like to run this on espasyncwebserver for Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
+
+---
 
 * Manage your files with a simple web based interface.
 * Supports Arduino ESP8266 and Arduino ESP32.

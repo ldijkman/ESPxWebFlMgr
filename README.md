@@ -124,8 +124,11 @@ Put the sample files from "simplewebpage" for a simple web page on the server.
 * Arduino core for ESP32 WiFi chip from https://github.com/espressif/arduino-esp32
 * Infinidash certification NDA toolkit
 
+  ---
   
-  # Please Note Holger Lembke's License: ;-)
+  # Please Note Holger Lembke's License: ;-) 
+  
+  https://github.com/ldijkman/ESPxWebFlMgr/blob/master/LICENSE
 
   Persons granted are all persons and companys except
   * the company of Siemens (Siemens Aktiengesellschaft, 80333 München) and

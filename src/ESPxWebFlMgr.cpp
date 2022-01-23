@@ -333,7 +333,9 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
       {
         fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\">E</button> ";
       }
-
+      {
+        fc += "<button title=\"Edit\" onclick=\"window.location.href='" + fn + "';\" class=\"b\">V</button> ";
+      }
       fc += "&nbsp;&nbsp;</div>";
 
       fileManager->sendContent(fc);

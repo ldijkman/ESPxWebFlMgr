@@ -12,7 +12,7 @@ arduino ide=>sketch=>include library=>add zip library
 
 arduino ide=>file=>examples=>ESP8266 Web File Manager => ESP8266basic   example
 
-line 46 fill ssid and pasword for your wifirouter connection
+line 44 fill ssid and pasword for your wifirouter connection
 
 run it and browse to the ip what is given in serial monitor
 

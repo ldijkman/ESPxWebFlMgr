@@ -3,7 +3,7 @@
 #define ESPxWebFlMgrWpF_h
 
 static const char ESPxWebFlMgrWpFormIntro[] PROGMEM = 
-R"==x==(<form><textarea id="tect" rows="25" cols="80">)==x==";
+R"==x==(<form><textarea id="tect" rows="25" cols="120">)==x==";
 
 
 static const char ESPxWebFlMgrWpFormExtro1[] PROGMEM = 

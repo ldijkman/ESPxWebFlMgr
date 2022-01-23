@@ -6,6 +6,8 @@ arduino ide=>sketch=>add zip library
 
 arduino ide=>file=>examples=>ESP8266 Web File Manager => ESP8266basic   example
 
+line 46 fill ssid and pasword for your wifirouter connection
+
 This is a fork from original 
 
 would like to run this on espasyncwebserver for Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager

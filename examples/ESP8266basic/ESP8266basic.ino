@@ -8,6 +8,8 @@
        Only "#define ESPxWebFlMgr_FileSystem SPIFFS" makes any sense.
 */
 
+// Electra doesnt have a clue what he is talking about in above text ;-)
+
 // Board settings
 // Board: "Generic ESP8266 Module"
 // Builtin Led: "2"

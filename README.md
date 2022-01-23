@@ -38,8 +38,10 @@ Some Changes, WishList ?:
 
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053548.jpg">
 
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/20220123_150041.jpg">
+
 ---
-This is a fork from original FileManager
+This is a fork from original FileManager by Holger Lembke
 
 original https://github.com/holgerlembke/ESPxWebFlMgr
 ---

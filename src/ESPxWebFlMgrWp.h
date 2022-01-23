@@ -49,7 +49,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
           File list should appear here.
         </div>
     </div>
-    <center><a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr</a></center>
+<center><a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr</a></center>
   </body>
 </html>  
 
@@ -144,7 +144,7 @@ function editfile(filename) {
     var DONE = this.DONE || 4;
     if (this.readyState === DONE) {
       document.getElementById('fi').innerHTML = editxhr.responseText;
-      document.getElementById("o3").innerHTML = "Edit " + filename;
+      document.getElementById("o3").innerHTML = "&nbsp;Edit " + filename;
       msgline("");
     }
   };
@@ -503,3 +503,4 @@ div {
 
 
 #endif
+

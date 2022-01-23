@@ -8,7 +8,7 @@
 
 download zip => https://github.com/ldijkman/ESPxWebFlMgr/archive/refs/heads/master.zip
 
-arduino ide=>sketch=>include library=>add zip library
+arduino ide=>sketch=>include library=>add zip library   (ESPxWebFlMgr-master.zip)
 
 arduino ide=>file=>examples=>ESP8266 Web File Manager => ESP8266basic   example
 

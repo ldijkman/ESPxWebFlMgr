@@ -5,7 +5,7 @@
 #include <ESPxWebFlMgrWp.h>
 #include <ESPxWebFlMgrWpF.h>
 
-#include <crc32.h>
+#include <CRC32.h>
 
 #ifdef ESP8266
 #include <ESP8266WebServer.h>

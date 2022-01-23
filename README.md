@@ -2,7 +2,7 @@
 
 # Make this work with ESPAsyncWebServer?
 
-# ESPxWebFlMgr
+# ESPxWebFlMgr by Holger Lembke
 
 ### howto run this Filemanager on a ESP8266
 

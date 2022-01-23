@@ -26,6 +26,9 @@ original https://github.com/holgerlembke/ESPxWebFlMgr
 
 Would like to run this on espasyncwebserver for Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
+some changes?, extra colomn/row for preview files in browser, maybe small icons instead of letters
+
+
 ---
 
 * Manage your files with a simple web based interface.

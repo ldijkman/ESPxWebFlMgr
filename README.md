@@ -19,10 +19,6 @@ run it and browse to the ip what is given in serial monitor
 https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP8266basic.ino
 
 ---
-This is a fork from original FileManager
-
-original https://github.com/holgerlembke/ESPxWebFlMgr
----
 
 # Edit Electra's Skin online inbrowser filemanager
 
@@ -36,6 +32,10 @@ a touch or click on dropzone should open a filebrowsebox for uploading
 
 maybe a new file create button
 
+---
+This is a fork from original FileManager
+
+original https://github.com/holgerlembke/ESPxWebFlMgr
 ---
 
 * Manage your files with a simple web based interface.

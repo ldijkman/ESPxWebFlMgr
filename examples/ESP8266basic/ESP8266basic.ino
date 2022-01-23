@@ -14,6 +14,9 @@
 //             https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
 //             unzip in arduino/tools directory...restart arduino...now you should have in the menu  => Arduino IDE => Tools => ESP8266 LittleFS Data Upload
 
+// now you can upload the data directory to littlefs (turn serial monitor off else fail)
+
+
 
 // Board settings
 // Board: "Generic ESP8266 Module"

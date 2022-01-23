@@ -24,7 +24,7 @@ https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP82
 
 Would like to run this on ESPAsyncWebServer for Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
-Some Changes, WishList ?: 
+Some Changes, WishList ?:
 - run on ESPAsyncWebServer 
 - extra colomn/row for preview files in browser
 - maybe small icons instead of letters

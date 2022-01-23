@@ -2,7 +2,7 @@
 
 # ESPxWebFlMgr
 
-### howto run this on a ESP8266
+### howto run this Filemanager on a ESP8266
 
 download zip => https://github.com/ldijkman/ESPxWebFlMgr/archive/refs/heads/master.zip
 

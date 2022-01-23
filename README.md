@@ -16,6 +16,8 @@ line 46 fill ssid and pasword for your wifirouter connection
 
 run it and browse to the ip what is given in serial monitor
 
+https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP8266basic.ino
+
 ---
 This is a fork from original FileManager
 

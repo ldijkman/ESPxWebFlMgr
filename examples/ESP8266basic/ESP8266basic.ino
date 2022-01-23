@@ -10,6 +10,11 @@
 
 // Electra doesnt have a clue what he is talking about in above text ;-)
 
+// LittleFS data upload tool for Arduino IDE
+//             https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
+//             unzip in arduino/tools directory...restart arduino...now you should have in the menu  => Arduino IDE => Tools => ESP8266 LittleFS Data Upload
+
+
 // Board settings
 // Board: "Generic ESP8266 Module"
 // Builtin Led: "2"

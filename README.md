@@ -18,7 +18,7 @@ run it and browse to the ip what is given in serial monitor
 
 https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP8266basic.ino
 
-i use Arduino IDE Linux ARM 32 Bits on RaspBerry pi400 https://www.arduino.cc/en/software
+i use Arduino IDE 1.8.19 Linux ARM 32 Bits on RaspBerry pi400 https://www.arduino.cc/en/software
 
 ---
 

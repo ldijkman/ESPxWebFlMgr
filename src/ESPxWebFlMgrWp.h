@@ -49,7 +49,9 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
           File list should appear here.
         </div>
     </div>
-<center><a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr</a></center>
+<center>
+<a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr Copyright &copy; 2019 Holger Lembke</a>
+</center>
   </body>
 </html>  
 

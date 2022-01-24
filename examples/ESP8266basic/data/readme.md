@@ -1,5 +1,9 @@
-upload this to spiffs the esp32 SPIFFS is a file system, flash storage on the esp32?
+Yes! You have Done it!
 
-  you need to upload the data directory to spiffs => Arduino IDE => Tools => ESP32 Sketch Data Upload (turn serial monitor off else failure)
-  
-   howto add and use in arduino ide => https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/
+Great!!!
+
+Electra Welcome's You!
+
+Help Electra grow?
+
+https://github.com/ldijkman/randomnerd_esp32_wifi_manager

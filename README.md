@@ -40,7 +40,7 @@ So that we can change the Look and Feel of Electra with skins (html / css)
 Some Changes, WishList ?:
 - run on ESPAsyncWebServer, Make Electra Happy?
 - X=done, extra colomn/row for preview files in browser == i have added a V button
-- maybe small icons instead of letters
+- maybe small icons instead of letters https://iconarchive.com/show/oxygen-icons-by-oxygen-icons.org.html
 - X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button

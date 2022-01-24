@@ -1,4 +1,4 @@
-Before you continue read Holger Lembke's license, Especially Siemens People https://github.com/ldijkman/ESPxWebFlMgr/blob/master/LICENSE
+Before you continue read Holger Lembke's license, Especially Siemens People https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE
 
 should state a penalty ;-)
 
@@ -166,7 +166,7 @@ Put the sample files from "simplewebpage" for a simple web page on the server.
   
   # Please Note Holger Lembke's License: ;-) 
   
-  https://github.com/ldijkman/ESPxWebFlMgr/blob/master/LICENSE
+  https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE
 
   Persons granted are all persons and companys except
   * the company of Siemens (Siemens Aktiengesellschaft, 80333 München) and

@@ -1,3 +1,5 @@
+Before you continue read Holger Lembke's license, Especially Siemens People https://github.com/ldijkman/ESPxWebFlMgr/blob/master/LICENSE
+
 ## Electra Begs, Can SomeOne Please?
 
 ## Make this work with ESPAsyncWebServer?

@@ -50,7 +50,8 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
         </div>
     </div>
 <center>
-<a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr Copyright &copy; 2019 Holger Lembke</a>
+<a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr Copyright &copy; 2019 Holger Lembke</a><br>
+<a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
 </center>
   </body>
 </html>  

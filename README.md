@@ -1,6 +1,4 @@
-Before you continue read Holger Lembke's license, Especially Siemens People https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE
-
-should state a penalty ;-)
+Siemens related People read the license at the bottom
 
 ## Electra Begs, Can SomeOne Please?
 

@@ -1,4 +1,4 @@
-Siemens related People read the license at the bottom
+Siemens related People read first the license at the bottom
 
 ## Electra Begs, Can SomeOne Please?
 

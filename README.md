@@ -29,6 +29,9 @@ i use Arduino IDE 1.8.19 Linux ARM 32 Bits on RaspBerry pi400 https://www.arduin
 # Edit Electra's Skin online inbrowser WebFileManager
 
 Would like to run this on ESPAsyncWebServer 
+
+So that we can change the Look and Feel of Eletra with skins (html / css)
+
 - Got to Please Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
 Some Changes, WishList ?:

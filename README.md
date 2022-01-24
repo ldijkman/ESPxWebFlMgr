@@ -30,7 +30,8 @@ i use Arduino IDE 1.8.19 Linux ARM 32 Bits on RaspBerry pi400 https://www.arduin
 
 Would like to run this on ESPAsyncWebServer 
 
-So that we can change the Look and Feel of Eletra with skins (html / css)
+So that we can change the Look and Feel of Electra with skins (html / css)
+- Without any ESP/Arduino programming for a bigger audience
 
 - Got to Please Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 

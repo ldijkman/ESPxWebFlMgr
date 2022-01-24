@@ -81,7 +81,11 @@ original https://github.com/holgerlembke/ESPxWebFlMgr
 
 ## Usage
 * Click on the filename to download the file.
-* D is delete, R is rename, E is in-place-edit, C is Web-compatible GZIP compress.
+* D is delete 
+* R is rename
+* E is in-place-edit
+* C is Web-compatible GZIP compress. (luberth=>but what can we do with gzip???)
+* V is PreView
 * Drop one or multiple file onto the drop zone to upload.
 * Click on "Download all files" got get the entire file system content as one big ZIP file. 
 

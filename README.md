@@ -14,7 +14,11 @@ arduino ide=>file=>examples=>ESP8266 Web File Manager => ESP8266basic   example
 
 line 44 fill ssid and pasword for your wifirouter connection
 
-run it and browse to the ip what is given in serial monitor
+upload data directory to ESP8266 LittleFS (Descripton HowToDoTHAT in ESP8266basic   example)
+
+program the ESP8266 and Browse to the IP that is given in serial monitor
+
+---
 
 https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP8266basic.ino
 
@@ -28,10 +32,10 @@ Would like to run this on ESPAsyncWebServer
 - Got to Please Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
 Some Changes, WishList ?:
-- run on ESPAsyncWebServer 
-- X extra colomn/row for preview files in browser == i have added a V button
+- run on ESPAsyncWebServer, Make Electra Happy?
+- X=done, extra colomn/row for preview files in browser == i have added a V button
 - maybe small icons instead of letters
-- X there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
+- X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button
 

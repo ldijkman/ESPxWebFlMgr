@@ -52,6 +52,10 @@ Some Changes, WishList ?:
 - run on ESPAsyncWebServer, Make Electra Happy?
 - X=done, extra colomn/row for preview files in browser == i have added a V button
 - maybe small icons instead of letters maybe these picto icons https://tinyfilemanager.github.io/demo/
+- - ok its a font 
+- - - https://fontawesome.com/v4.7/icon/eye
+- - - https://fontawesome.com/v4.7/icon/trash-o
+- - - https://fontawesome.com/v4.7/icon/pencil-square-o
 - X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button

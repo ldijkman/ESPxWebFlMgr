@@ -20,6 +20,8 @@ upload data directory to ESP8266 LittleFS (Descripton HowToDoTHAT in ESP8266basi
 
 program the ESP8266 and Browse to the IP that is given in serial monitor
 
+https://www.google.com/search?q=ESP8266 minimal 32mbit==4MByte version?
+
 ---
 
 https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/ESP8266basic.ino

@@ -89,6 +89,8 @@ Wikipedia => In the Star Trek fictional universe, LCARS is a computer operating 
 
 https://www.google.com/search?q=lcars
 
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/ezgif-6-def92c1f6f.gif">
+
 ---
 
 This is a fork from original FileManager by Holger Lembke

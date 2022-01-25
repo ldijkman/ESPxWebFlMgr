@@ -42,7 +42,7 @@ Modify Electra like you like her to be
 - index.html https://jsfiddle.net/luberth/sx61b08t/show
 - schedule.html https://jsfiddle.net/luberth/ow3zceyn/show
 - 
-- - and upload or edit copy/paste it with the  WebFileManager Editor
+- - and upload or edit copy/paste it with the  WebFileManager Editor on the ESPx LittleFS
 
 - Got to Please Electra https://github.com/ldijkman/randomnerd_esp32_wifi_manager
 

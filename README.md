@@ -51,11 +51,7 @@ Modify Electra like you like her to be
 Some Changes, WishList ?:
 - run on ESPAsyncWebServer, Make Electra Happy?
 - X=done, extra colomn/row for preview files in browser == i have added a V button
-- maybe small icons instead of letters maybe these picto icons https://tinyfilemanager.github.io/demo/
-- - ok its a font 
-- - - https://fontawesome.com/v4.7/icon/eye
-- - - https://fontawesome.com/v4.7/icon/trash-o
-- - - https://fontawesome.com/v4.7/icon/pencil-square-o
+- X=done with a font, maybe small icons instead of letters
 - X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button
@@ -83,7 +79,7 @@ Some Changes, WishList ?:
 
 Trying icon font =  no rename maybe  A&curarr;B  ,  hee a &#8623; Electra &#8623; character
 
-<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-25-184518_1360x768_scrot.png">
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-25-190918_1360x768_scrot.png">
 
 ---
 

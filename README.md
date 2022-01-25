@@ -37,7 +37,7 @@ So that we can change the Look and Feel of Electra with skins (HTML / CSS)
 Modify Electra like you like her to be
 
 - Without any ESP/Arduino programming for a bigger audience
-- Edit a HTML/CSS design in jsfiddle.net or codepen.io
+- Edit a HTML/CSS design in jsfiddle.net or codepen.io or other online/offline designer
 - wifimanager.html https://jsfiddle.net/luberth/4avpquhs/show
 - index.html https://jsfiddle.net/luberth/sx61b08t/show
 - schedule.html https://jsfiddle.net/luberth/ow3zceyn/show

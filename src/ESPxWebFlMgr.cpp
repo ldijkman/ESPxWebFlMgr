@@ -335,7 +335,7 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
         fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\"><i class=\"fa fa-pencil-square-o\"></i></button> ";
       }
       {
-        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><i class=\"fa fa-eye\"></i></button> ";
+        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><img src=\"eye.png\" width=\"20\" height=\"20\"></button> ";
       }
       fc += "&nbsp;&nbsp;</div>";
 
@@ -805,4 +805,5 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
   fileManager->send(200, "text/plain", "");
   delay(1);
 }
+
 

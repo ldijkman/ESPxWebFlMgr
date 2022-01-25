@@ -1,4 +1,5 @@
 
+
 #include <Arduino.h>
 #include <inttypes.h>
 #include <ESPxWebFlMgr.h>
@@ -317,12 +318,12 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
       fc += "<div class=\"cct " + colorline(i) + "\">&nbsp;" + dispIntDotted(file.size()) + "&nbsp;</div>";
 
       fc += "<div class=\"ccr " + colorline(i) + "\">&nbsp;"
-            "<button title=\"Delete\" onclick=\"deletefile('" + fn + "')\" class=\"b\">D</button> "
-            "<button title=\"Rename\" onclick=\"renamefile('" + fn + "')\" class=\"b\">R</button> ";
+            "<button title=\"Delete\" onclick=\"deletefile('" + fn + "')\" class=\"b\"><i class=\"fa fa-trash-o\"></i></button> "
+            "<button title=\"Rename\" onclick=\"renamefile('" + fn + "')\" class=\"b\">A&curarr;B</button> ";
 
       // no gziped version and (zipper or gziped zipper) exists
       if ( (! (fn.endsWith(".gz")) ) && gzipperexists) {
-        fc += "<button title=\"Compress\" onclick=\"compressurlfile('" + fn + "')\" class=\"b\">C</button> ";
+        fc += "<button title=\"Compress\" onclick=\"compressurlfile('" + fn + "')\" class=\"b\"><i class=\"fa fa-file-archive-o\"></i></button> ";
       }
       // for editor
 #ifndef fileManagerEditEverything
@@ -331,10 +332,10 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
            (contentTyp.startsWith("application/j"))  ) // boldly assume: json, javascript and everything else is edible....
 #endif
       {
-        fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\">E</button> ";
+        fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\"><i class=\"fa fa-pencil-square-o\"></i></button> ";
       }
       {
-        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\">V</button> ";
+        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><i class=\"fa fa-eye\"></i></button> ";
       }
       fc += "&nbsp;&nbsp;</div>";
 

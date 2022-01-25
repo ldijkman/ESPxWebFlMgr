@@ -52,6 +52,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <center>
 <a href="https://github.com/ldijkman/ESPxWebFlMgr" target="ESPxWebFlMgr">ESPxWebFlMgr Copyright &copy; 2019 Holger Lembke</a><br>
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
+<a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
   </body>
 </html>  

@@ -449,7 +449,7 @@ div {
 
 #fi .b {
   background-color: Transparent;
-  border: 1px solid #9999FF;  
+  border: 0px solid #9999FF;  
   border-radius: 1px;
   padding: 0px;
   width: 30px;

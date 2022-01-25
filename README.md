@@ -81,9 +81,9 @@ Some Changes, WishList ?:
 
 - X extra colomn/row for preview files in browser == i have added a V button
 
-Trying icon font no rename maybe  A&curarr;B   &#8623;&#8623;&#8623;  
+Trying icon font =  no rename maybe  A&curarr;B  ,  hee a Electra sign &#8623;&#8623;&#8623;  
 
-<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-25-183524_1360x768_scrot.png">
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-25-184518_1360x768_scrot.png">
 
 ---
 

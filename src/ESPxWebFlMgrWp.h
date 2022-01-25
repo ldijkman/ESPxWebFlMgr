@@ -21,7 +21,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
     <div id="gc">
         <div class="o1">&nbsp;</div>
         <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">&#8623;
- Electra\'s FileManager &#8623;</a>&nbsp;</div>
+ Electra's FileManager &#8623;</a>&nbsp;</div>
         <div class="o3" id="o3">&nbsp;</div>
         <div class="o4">&nbsp;</div>
 

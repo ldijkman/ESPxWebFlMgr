@@ -21,7 +21,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
     <div id="gc">
         <div class="o1">&nbsp;</div>
         <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">&#8623;
- Electra's FileManager &#8623;</a>&nbsp;</div>
+ Electra\'s FileManager &#8623;</a>&nbsp;</div>
         <div class="o3" id="o3">&nbsp;</div>
         <div class="o4">&nbsp;</div>
 
@@ -32,9 +32,9 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-          File<br />
-          Drop<br />
-          Zone<br />
+          <img src="https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/download_1-512.png" width="40" height="40">
+          <br>
+       
         </div>
         <div class="m3">
             <div class="s31">&nbsp;</div>
@@ -445,6 +445,7 @@ div {
 
 .c {
   grid-area: c;
+  font-size: 15px;
 }
 
 #fi .b {
@@ -467,11 +468,13 @@ div {
 }
 
 .gc div {
-  padding: 1px;  
+  padding: 1px; 
+  font-size: 15px; 
 }
 
 .ccg, ccu {
   height: 1.5em;
+  font-size: 15px;
 }
 
 .ccg {
@@ -509,4 +512,5 @@ div {
 
 
 #endif
+
 

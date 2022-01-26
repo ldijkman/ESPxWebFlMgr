@@ -2,7 +2,7 @@ Siemens related People first read the license at the bottom ?!
 
 # 100 &euro;uro for the first that gives a working code 
 
-## for this Filemanager on ESPAsyncWebServer?
+## for this Filemanager on ESPAsyncWebServer? (ESP8266)
 
 like it is now, working on ESP8266WebServer.h
 

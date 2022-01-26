@@ -32,7 +32,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-          <img src="https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/download_1-512.png" width="40" height="40">
+          <img src="https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/download_1-512.png" width="40" height="40"  title="drag files here to upload files">
           <br>
        
         </div>

@@ -79,7 +79,9 @@ Some Changes, WishList ?:
 
 Trying icon font =  no rename maybe  A&curarr;B  ,  hee a &#8623; Electra &#8623; character
 
-<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-25-190918_1360x768_scrot.png">
+maybe less size/no external traffic when i make images from the font
+
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-26-052455_1360x768_scrot.png">
 
 ---
 

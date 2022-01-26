@@ -81,6 +81,8 @@ Trying icon font =  no rename maybe  A&curarr;B  ,  hee a &#8623; Electra &#8623
 
 maybe less size/no external traffic when i make images from the font
 
+added a drop file zone icon middle left
+
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-26-052455_1360x768_scrot.png">
 
 ---

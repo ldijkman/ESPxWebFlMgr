@@ -1,11 +1,13 @@
 Siemens related People first read the license at the bottom ?!
 
-# 100 Euro for the first that gives a working code 
+# 100 &euro;uro for the first that gives a working code 
 
 ## for this Filemanager on ESPAsyncWebServer?
 
 
 Code submissions => https://github.com/ldijkman/ESPxWebFlMgr/discussions
+
+---
 
 
 Electra Begs, Can SomeOne Please?

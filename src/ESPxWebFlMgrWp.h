@@ -13,7 +13,6 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="/bg.css">
     <link rel="stylesheet" type="text/css" href="/fm.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/fm.js"></script>  
     <script src="/gzipper.js"></script>  
   </head>
@@ -32,7 +31,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-          <img src="https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/download_1-512.png" width="40" height="40"  title="drag files here to upload files">
+           <img src="filedrop.png" width="50" height="50" title="dragg files here to upload files">
           <br>
        
         </div>
@@ -512,5 +511,4 @@ div {
 
 
 #endif
-
 

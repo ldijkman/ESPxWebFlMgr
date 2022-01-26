@@ -8,6 +8,8 @@ like it is now, working on ESP8266WebServer.h
 
 Code submissions => https://github.com/ldijkman/ESPxWebFlMgr/discussions
 
+for proffessional coders it maybe not enough, but it may trigger other ;-)
+
 ---
 
 

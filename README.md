@@ -4,6 +4,7 @@ Siemens related People first read the license at the bottom ?!
 
 ## for this Filemanager on ESPAsyncWebServer?
 
+like it is now, working on ESP8266WebServer.h
 
 Code submissions => https://github.com/ldijkman/ESPxWebFlMgr/discussions
 

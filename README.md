@@ -70,7 +70,7 @@ Some Changes, WishList ?:
 - <del>extra colomn/row for preview files in browser</del> == i have added a V button
 - <del>maybe small icons instead of letters</del> == done with a font, later images maybe less and no external traffic
 - <del>there is no E edit for .txt files </del>=> i see in code i can set #define fileManagerEditEverything
-- a touch or click on dropzone should open a filebrowsebox for uploading 
+- a touch or click on dropzone should open a filebrowsebox for uploading (try to drag/drop files on phone, i cannot, dontknow)
 - maybe a new file create button
 - unzip button
 - textarea colored simple syntax higlighting

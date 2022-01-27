@@ -67,11 +67,13 @@ Modify Electra like you like her to be
 
 Some Changes, WishList ?:
 - run on ESPAsyncWebServer, Make Electra Happy?
-- X=done, extra colomn/row for preview files in browser == i have added a V button
+- <del>X=done, extra colomn/row for preview files in browser == i have added a V button</del>
 - X=done with a font, maybe small icons instead of letters
 - X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 
 - maybe a new file create button
+- unzip button
+- textarea colored simple syntax higlighting
 
 
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053531.jpg">

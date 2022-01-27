@@ -8,7 +8,7 @@ like it is now, working on ESP8266WebServer
 
 ---
 
-Code submissions => https://github.com/ldijkman/ESPxWebFlMgr/discussions
+Code submissions => https://github.com/ldijkman/ESPxWebFlMgr/discussions (link to sourcecode?)
 
 ---
 

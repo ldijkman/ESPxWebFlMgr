@@ -318,12 +318,12 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
       fc += "<div class=\"cct " + colorline(i) + "\">&nbsp;" + dispIntDotted(file.size()) + "&nbsp;</div>";
 
       fc += "<div class=\"ccr " + colorline(i) + "\">&nbsp;"
-            "<button title=\"Delete\" onclick=\"deletefile('" + fn + "')\" class=\"b\"><img src=\"trash.png\" width=\"20\" height=\"20\"></button> "
-            "<button title=\"Rename\" onclick=\"renamefile('" + fn + "')\" class=\"b\"><img src=\"rename.png\" width=\"40\" height=\"18\"></button> ";
+            "<button title=\"Delete\" onclick=\"deletefile('" + fn + "')\" class=\"b\"><img src=\"--trash.png\" width=\"20\" height=\"20\"></button> "
+            "<button title=\"Rename\" onclick=\"renamefile('" + fn + "')\" class=\"b\"><img src=\"--rename.png\" width=\"40\" height=\"18\"></button>&nbsp;&nbsp; ";
 
       // no gziped version and (zipper or gziped zipper) exists
       if ( (! (fn.endsWith(".gz")) ) && gzipperexists) {
-        fc += "<button title=\"Compress\" onclick=\"compressurlfile('" + fn + "')\" class=\"b\">&nbsp;&nbsp;<img src=\"zip.png\" width=\"20\" height=\"20\"></button> ";
+        fc += "<button title=\"Compress\" onclick=\"compressurlfile('" + fn + "')\" class=\"b\"><img src=\"--zip.png\" width=\"20\" height=\"20\"></button> ";
       }
       // for editor
 #ifndef fileManagerEditEverything
@@ -332,10 +332,10 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
            (contentTyp.startsWith("application/j"))  ) // boldly assume: json, javascript and everything else is edible....
 #endif
       {
-        fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\"><img src=\"edit.png\" width=\"20\" height=\"20\"></button> ";
+        fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\"><img src=\"--edit.png\" width=\"20\" height=\"20\"></button> ";
       }
       {
-        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><img src=\"eye.png\" width=\"20\" height=\"20\"></button> ";
+        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><img src=\"--eye.png\" width=\"20\" height=\"20\"></button> ";
       }
       fc += "&nbsp;&nbsp;</div>";
 

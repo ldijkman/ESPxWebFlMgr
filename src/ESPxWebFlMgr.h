@@ -74,7 +74,7 @@ class ESPxWebFlMgr {
     WebServer * fileManager = NULL;
 #endif
     bool _ViewSysFiles = false;
-    String _SysFileStartPattern = "/.";
+    String _SysFileStartPattern = "--";
     File fsUploadFile;
     String _backgroundColor = "black";
 

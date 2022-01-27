@@ -31,7 +31,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-           <img src="filedrop.png" width="50" height="50" title="dragg files here to upload files">
+           <img src="--filedrop.png" width="50" height="50" title="dragg files here to upload files">
           <br>
        
         </div>

@@ -67,7 +67,7 @@ Modify Electra like you like her to be
 
 Some Changes, WishList ?:
 - run on ESPAsyncWebServer, Make Electra Happy?
-- <del>X=done, extra colomn/row for preview files in browser == i have added a V button</del>
+- <del>X=done, extra colomn/row for preview files in browser<del> == i have added a V button
 - X=done with a font, maybe small icons instead of letters
 - X=done, there is no E edit for .txt files => i see in code i can set #define fileManagerEditEverything
 - a touch or click on dropzone should open a filebrowsebox for uploading 

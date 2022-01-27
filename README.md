@@ -1,4 +1,4 @@
-<b>SIEMENS</b> related People first read the license at the bottom ?!
+<b>SIEMENS</b> related, People first read the license at the bottom ?!
 
 # 100 &euro;uro for the first that gives a working code 
 

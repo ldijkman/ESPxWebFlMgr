@@ -75,6 +75,8 @@ Some Changes, WishList ?:
 - unzip button
 - textarea colored simple syntax higlighting
 
+can you help shorten above wishlist?
+
 
 <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/images/20220122_053531.jpg">
 
@@ -109,6 +111,8 @@ added a drop file zone icon middle left
 Alexander W. on Facebook commented => looks like LCARS
 
 Wikipedia => In the Star Trek fictional universe, LCARS is a computer operating system. Within Star Trek chronology
+
+an LCARS index /  css skin would be nice for Electra = Start Trek Electra house controlled devices
 
 https://www.google.com/search?q=lcars
 

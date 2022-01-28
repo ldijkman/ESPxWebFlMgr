@@ -4,7 +4,13 @@ M Muller said  i found some issue on the persistance of credentials in the core3
 
 Luberth => think i am using cq compiler says => Using library ... /home/pi/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/libraries/
 
-https://github.com/esp8266/Arduino/releases
+https://github.com/esp8266/Arduino/releases 
+
+so i think i have an older version in this part
+
+Start Arduino and open the Preferences window.
+- Enter https://arduino.esp8266.com/stable/package_esp8266com_index.json into the File>Preferences>Additional Boards Manager URLs field of the Arduino IDE. You can add multiple URLs, separating them with commas.
+- Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
 
 ---
 

@@ -1,3 +1,14 @@
+# NOTE:
+
+M Muller said  i found some issue on the persistance of credentials in the core3.x of 8266, which does not work
+
+think i am using /home/pi/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/libraries/
+
+https://github.com/esp8266/Arduino/releases
+
+---
+
+
 <b>SIEMENS</b> related, People first read the license at the bottom ?!
 
 # 100 &euro;uro for the first that gives a working code 

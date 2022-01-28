@@ -6,7 +6,7 @@ Luberth => think i am using cq compiler says => Using library ... /home/pi/.ardu
 
 https://github.com/esp8266/Arduino/releases 
 
-so i think i have an older version in this part
+## #so i think i have an older version in this part
 
 Start Arduino and open the Preferences window.
 - Enter https://arduino.esp8266.com/stable/package_esp8266com_index.json into the File>Preferences>Additional Boards Manager URLs field of the Arduino IDE. You can add multiple URLs, separating them with commas.

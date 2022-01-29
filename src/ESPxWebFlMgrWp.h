@@ -17,13 +17,13 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
     <link rel="stylesheet" type="text/css" href="/bg.css">
     <link rel="stylesheet" type="text/css" href="/fm.css">
     <script src="/fm.js"></script> 
-  <script src="/gzipper.js"></script>
-
-<link rel="stylesheet" href="--codemirror.css">
-<link rel="stylesheet" href="--night.css">
-<script src="--codemirror_compressed.js"></script>
-<script src="--xml.js"></script>
-
+    <script src="/gzipper.js"></script>
+    <!-- CodeMirror -->
+    <link rel="stylesheet" href="--codemirror.css">
+    <link rel="stylesheet" href="--night.css">
+    <script src="--codemirror_compressed.js"></script>
+    <script src="--xml.js"></script>
+    <!-- CodeMirror -->
   </head>
   <body class="background">
     <div id="gc">

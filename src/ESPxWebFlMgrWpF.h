@@ -13,7 +13,7 @@ R"==x==(</textarea><br><button title="Save file" onclick="sved(')==x==";
 
 // noot sure what the <script> part is for.
 static const char ESPxWebFlMgrWpFormExtro2[] PROGMEM = 
-R"==x==(');" >Save File</button>&nbsp;<button title="Abort editing" onclick="abed();">Abort editing</button><br><br>
+R"==x==(');" >Save File</button>&nbsp;<button title="Abort editing" onclick="abed();">Mission Abort</button><br><br>
 
 <script id="info">document.getElementById('o3').innerHTML = "File:";</script>
 )==x==";

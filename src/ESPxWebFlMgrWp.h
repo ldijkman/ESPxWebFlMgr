@@ -10,17 +10,27 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <html  lang="en">
   <head>
     <title>FileManager</title>
-    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="/bg.css">
     <link rel="stylesheet" type="text/css" href="/fm.css">
-    <script src="/fm.js"></script>  
+    <script src="/fm.js"></script> 
+
+
+<link rel="stylesheet" href="--codemirror.css">
+<link rel="stylesheet" href="--night.css">
+<script src="--codemirror_compressed.js"></script>
+<script src="--xml.js"></script>
+
+
+    
+     
     <script src="/gzipper.js"></script>  
   </head>
   <body class="background">
     <div id="gc">
         <div class="o1">&nbsp;</div>
         <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">&#8623;
- Electra's FileManager &#8623;</a>&nbsp;</div>
+ Electra\'s FileManager &#8623;</a>&nbsp;</div>
         <div class="o3" id="o3">&nbsp;</div>
         <div class="o4">&nbsp;</div>
 
@@ -30,7 +40,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             <div class="s13 background">&nbsp;</div>
             </div>
         </div>
-        <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+        <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" onclick="fileopen();">
            <img src="--filedrop.png" width="50" height="50" title="dragg files here to upload files">
           <br>
        
@@ -43,7 +53,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
         </div>
 
         <div class="u1">&nbsp;</div>
-        <div class="u2" onclick="downloadall();">Download all files</div>
+        <div class="u2"><input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="New" onclick="newfile();">&nbsp;&nbsp;&nbsp;<input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:18px;" value="Download All" onclick="downloadall();"></div>
         <div class="u3" id="msg">Loading...</div>
         <div class="u4">&nbsp;</div>
         <div class="c" id="fi">
@@ -55,6 +65,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
 <a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
+
   </body>
 </html>  
 
@@ -151,6 +162,13 @@ function editfile(filename) {
       document.getElementById('fi').innerHTML = editxhr.responseText;
       document.getElementById("o3").innerHTML = "&nbsp;Edit " + filename;
       msgline("");
+      
+     
+    var editor = CodeMirror.fromTextArea(document.getElementById("tect"), {
+      lineNumbers: true,
+      theme: "night",
+    });
+
     }
   };
   editxhr.open('GET', '/e?edit=' + filename, true);
@@ -313,9 +331,13 @@ window.onload = getfileinsert;
 
 //*****************************************************************************************************
 static const char ESPxWebFlMgrWpcss[] PROGMEM = R"==g==(
+textarea
+{
+   // font: 12px "Times New Roman", Times, serif;
+}
 
 div {
-  margin: 1px;
+  margin: 0px;
   padding: 0px;
   font-family: 'Segoe UI', Verdana, sans-serif;
 }
@@ -444,7 +466,8 @@ div {
 
 .c {
   grid-area: c;
-  font-size: 15px;
+  margin: 0px;
+  //font-size: 10px;
 }
 
 #fi .b {

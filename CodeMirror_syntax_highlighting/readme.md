@@ -16,11 +16,11 @@ compressed the largest JS file to save space on ESP LittleFS
 
 Simple advanced home automation
 
-each device a handy wifimanager config
+each device a handy wifimanager config page, fixed, dhcp, mDNS, NTP, i/o, change settings from AP or STA mode
 
-each device a human friendly URL http://kitchen,local   living.local etc
+each device a human friendly URL http://kitchen,local    http://living.local etc
 
-each device its webpage lists automaticly all other devices in the local network wit a link to its URL http://kitchen,local   living.local etc
+each device its webpage lists automaticly all other devices in the local network wit a link to its URL http://kitchen,local    http://living.local etc
 
 each device  its own webpage
 

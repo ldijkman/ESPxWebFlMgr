@@ -11,29 +11,26 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
   <head>
     <title>FileManager</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="copyright" content="Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" sizes="192x192" href="Electra_192x192.png">
     <link rel="stylesheet" type="text/css" href="/bg.css">
     <link rel="stylesheet" type="text/css" href="/fm.css">
     <script src="/fm.js"></script> 
-
+  <script src="/gzipper.js"></script>
 
 <link rel="stylesheet" href="--codemirror.css">
 <link rel="stylesheet" href="--night.css">
 <script src="--codemirror_compressed.js"></script>
 <script src="--xml.js"></script>
 
-
-    
-     
-    <script src="/gzipper.js"></script>  
   </head>
   <body class="background">
     <div id="gc">
         <div class="o1">&nbsp;</div>
-        <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">&#8623;
- Electra\'s FileManager &#8623;</a>&nbsp;</div>
+        <div class="o2">&nbsp;&nbsp;<a href="http://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">&#8623; Electra's FileManager &#8623;</a>&nbsp;</div>
         <div class="o3" id="o3">&nbsp;</div>
         <div class="o4">&nbsp;</div>
-
         <div class="m1">
             <div class="s11">&nbsp;</div>
             <div class="s12">

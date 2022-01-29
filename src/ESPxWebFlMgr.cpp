@@ -813,6 +813,9 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
       //String fn = CheckFileNameLengthLimit(fileManager->arg(1));
       //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn2)) ) {
         ESPxWebFlMgr_FileSystem.open("/"+fn, "w");
+        File file = LittleFS.open("/"+fn, "w");
+        file.print("Electra was Here ! ;-)"); 
+        
       //}    
     //}
   }
@@ -821,17 +824,7 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
   
   
   
-    // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
-  // one arg, new
-  if ( (fileManager->args() == 1) && (fileManager->argName(0) == "new") ) {
-    String fn = fileManager->arg(0);
-    if ( (_ViewSysFiles) || (allowAccessToThisFile(fn)) ) {
-      String fn2 = CheckFileNameLengthLimit(fileManager->arg(1));
-      if ( (_ViewSysFiles) || (allowAccessToThisFile(fn2)) ) {
-        ESPxWebFlMgr_FileSystem.rename("/"+fn, "/"+fn2);
-      }
-    }
-  }
+
 
   // dummy answer
   fileManager->send(200, "text/plain", "");

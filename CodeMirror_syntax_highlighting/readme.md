@@ -22,12 +22,12 @@ each device a human friendly URL http://kitchen,local   living.local etc
 
 each device its webpage lists automaticly all other devices in the local network wit a link to its URL http://kitchen,local   living.local etc
 
-each device  its on webpage
+each device  its own webpage
 
-each device its on easy to set overview loads of timed settings
+each device its on easy to set & overview timed settings (loads of timed settings possible)
 
-skins html/css for the main page editable uploadeble so create your own look for Electra
+Skins html/css for the main page editable uploadeble so create your own look for Electra 
 
-each device its on filemanager/editor
+each device its own filemanager/editor/upload/download
 
 

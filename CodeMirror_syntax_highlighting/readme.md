@@ -12,6 +12,10 @@ treid to use local JS CSS files so that all smart Electra devices works if there
 
 compressed the largest JS file to save space on ESP LittleFS
 
+ CodeMirror.version = "5.65.1";
+ 
+ https://jscompress.com/    Stats: 57.42% compression, saving 224.39 kb  filesize now (166Kb was 391Kb)
+
 # Electra
 
 Simple advanced home automation

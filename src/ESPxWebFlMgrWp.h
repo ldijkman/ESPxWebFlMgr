@@ -11,7 +11,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
   <head>
     <title>FileManager</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="copyright" content="Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands" />
+    <meta name="copyright" content="Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands, https://github.com/ldijkman/ESPxWebFlMgr" />
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="icon" sizes="192x192" href="Electra_192x192.png">
     <link rel="stylesheet" type="text/css" href="/bg.css">
@@ -38,7 +38,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" onclick="fileopen();">
-           <img src="--filedrop.png" width="50" height="50" title="dragg files here to upload files">
+           <img src="--filedrop.png" width="70" height="70" title="dragg files here to upload files">
           <br>
        
         </div>
@@ -236,6 +236,36 @@ function uploadFile(file, islast) {
   formdata.append('dummy', 'dummy');
   xhr.send(formdata);
 }
+
+
+////////////////////////////////////////////////////////////////////////
+function fileopen(file, islast) {
+
+alert("Electra here, can i help you");
+
+  uploaddone = false;
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function () {
+    // console.log(xhr.status);
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE) {
+      if (islast) {
+        getfileinsert();
+        console.log('last file');
+      }
+      uploaddone = true;
+    }
+  };
+  xhr.open('POST', '/r');
+  var formdata = new FormData();
+  formdata.append('uploadfile', file);
+  // not sure why, but with that the upload to esp32 is stable.
+  formdata.append('dummy', 'dummy');
+  xhr.send(formdata);
+}
+////////////////////////////////////////////////////////////////////////
+
+
 
 var globaldropfilelisthlpr = null; // read-only-list, no shift()
 var transferitem = 0;

@@ -147,6 +147,25 @@ function renamefile(filename) {
   }
 }
 
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+function newfile(filename) {
+  var newname = prompt("create new file ", filename);
+  alert("newfile, Electra says i do no know how to do that");
+  //if (newname != null) {
+  //  msgline("Please wait. Rename in progress...");
+  //  executecommand("ren=" + filename + "&new=" + newname);
+ // }
+}
+//////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
 var editxhr;
 var editor;
 
@@ -241,7 +260,7 @@ function uploadFile(file, islast) {
 ////////////////////////////////////////////////////////////////////////
 function fileopen(file, islast) {
 
-alert("Electra here, can i help you");
+alert("fileopen, Electra says i do no know how to do that");
 
   uploaddone = false;
   var xhr = new XMLHttpRequest();

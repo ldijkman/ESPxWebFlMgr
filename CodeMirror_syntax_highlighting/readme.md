@@ -11,3 +11,23 @@ A test
 treid to use local JS CSS files so that all smart Electra devices works if there is no WAN connection
 
 compressed the largest JS file to save space on ESP LittleFS
+
+# Electra
+
+Simple advanced home automation
+
+each device a handy wifimanager config
+
+each device a human friendly URL http://kitchen,local   living.local etc
+
+each device its webpage lists automaticly all other devices in the local network wit a link to its URL http://kitchen,local   living.local etc
+
+each device  its on webpage
+
+each device its on easy to set overview loads of timed settings
+
+skins html/css for the main page editable uploadeble so create your own look for Electra
+
+each device its on filemanager/editor
+
+

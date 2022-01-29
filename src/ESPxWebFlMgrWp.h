@@ -151,6 +151,7 @@ function renamefile(filename) {
 }
 
 var editxhr;
+var editor;
 
 function editfile(filename) {
   msgline("Please wait. Creating editor...");
@@ -164,7 +165,7 @@ function editfile(filename) {
       msgline("");
       
      
-    var editor = CodeMirror.fromTextArea(document.getElementById("tect"), {
+    editor = CodeMirror.fromTextArea(document.getElementById("tect"), {
       lineNumbers: true,
       theme: "night",
     });
@@ -176,7 +177,10 @@ function editfile(filename) {
 }
 
 function sved(filename) {
-  var content = document.getElementById('tect').value;
+  //var content = document.getElementById('tect').value;  // for textarea without codemirror
+   //editor = CodeMirror.fromTextArea(document.getElementById("tect"));
+  var content = editor.getDoc().getValue("\n");
+  
   // utf-8
   content = unescape(encodeURIComponent(content));
 

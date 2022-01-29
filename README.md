@@ -112,7 +112,7 @@ added a drop file zone icon middle left
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-27-051809_1360x768_scrot.png">
 
-editor codemirror syntax highlight
+editor => codemirror syntax highlight and line numbers,   no external Js, compressed local
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-29-035103_1360x768_scrot.png">
 

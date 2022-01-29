@@ -801,6 +801,26 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
     }
   }
   
+
+
+/////////////////////////////////////////////////////////////////////////////  
+    // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
+  // one arg, "newfile", r
+  if ( (fileManager->args() == 1) && (fileManager->argName(0) == "new") ) {
+    String fn = fileManager->arg(0);
+    Serial.print("file create ");Serial.println(fn);
+    //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn)) ) {
+      //String fn = CheckFileNameLengthLimit(fileManager->arg(1));
+      //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn2)) ) {
+        ESPxWebFlMgr_FileSystem.open("/"+fn, "w");
+      //}    
+    //}
+  }
+////////////////////////////////////////////////////////////////////////////
+  
+  
+  
+  
     // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
   // one arg, new
   if ( (fileManager->args() == 1) && (fileManager->argName(0) == "new") ) {

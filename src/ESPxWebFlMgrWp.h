@@ -153,11 +153,12 @@ function renamefile(filename) {
 ///////////////////////////////////////////////////////////////////////////////
 function newfile(filename) {
   var newname = prompt("create new file ", filename);
-  alert("newfile, Electra says i do no know how to do that");
-  //if (newname != null) {
-  //  msgline("Please wait. Rename in progress...");
-  //  executecommand("ren=" + filename + "&new=" + newname);
- // }
+  //alert("newfile, Electra says i do no know how to do that");
+   console.log(newname);
+  if (newname != null) {
+    msgline("Please wait. Rename in progress...");
+    executecommand("new=" + newname);
+  }
 }
 //////////////////////////////////////////////////////////////////////////////
 

@@ -1,4 +1,4 @@
-binary test for OTA for ESP8266 32mbit==4MB
+binary test for OTA for ESP8266 32mbit==4MByte
 
 OTA = over the air update
 

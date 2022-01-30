@@ -200,3 +200,5 @@ http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 # Share your Skin! 
  
  Black, White, Yellow or Pink, Fat or Slim, Minimal or Maximal, Dusty or Futuristic.
+ 
+ https://github.com/ldijkman/randomnerd_esp32_wifi_manager/tree/main/Skins

@@ -1,5 +1,0 @@
-
-  )==x==";
-
-static const char ESPxWebFlMgrWpjavascript[] PROGMEM = R"==x==(
-

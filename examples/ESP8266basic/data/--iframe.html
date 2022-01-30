@@ -13,8 +13,8 @@
 </center><br>
         <iframe id="myIframe" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
    <center>
-     <a  href="/"><h2>Back to FileManager</h2></a><br>
-     https://github.com/ldijkman/ESPxWebFlMgr<br>
+     <a  href="/"><h2>Back to FileManager</h2></a>
+     <a href="https://github.com/ldijkman/ESPxWebFlMgr" target="heyElectra">https://github.com/ldijkman/ESPxWebFlMgr</a><br>
      </center><br>
     
       <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->
@@ -22,9 +22,9 @@
      
 
     <script>
-            var x = document.getElementById("myIframe");
-            x.style.backgroundColor = "lightgrey";
             let myIframe = document.getElementById("myIframe");
+            myIframe.style.backgroundColor = "lightgrey";
+            
             let endpoint = "";
             let url_string = window.location.href;
             let url = new URL(url_string);

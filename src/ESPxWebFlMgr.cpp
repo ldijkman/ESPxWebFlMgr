@@ -335,8 +335,8 @@ void ESPxWebFlMgr::fileManagerFileListInsert(void) {
         fc += "<button title=\"Edit\" onclick=\"editfile('" + fn + "')\" class=\"b\"><img src=\"--edit.png\" width=\"20\" height=\"20\"></button> ";
       }
       {
-        fc += "<button title=\"View\" onclick=\"window.location.href='" + fn + "';\" class=\"b\"><img src=\"--eye.png\" width=\"20\" height=\"20\"></button> ";
-      }
+        fc += "<button title=\"View\" onclick=\"window.location.href='--iframe.html?file=" + fn + "';\" class=\"b\"><img src=\"--eye.png\" width=\"20\" height=\"20\"></button> ";
+      } 
       fc += "&nbsp;&nbsp;</div>";
 
       fileManager->sendContent(fc);
@@ -812,9 +812,9 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
     //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn)) ) {
       //String fn = CheckFileNameLengthLimit(fileManager->arg(1));
       //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn2)) ) {
-        ESPxWebFlMgr_FileSystem.open("/"+fn, "w");
-        File file = LittleFS.open("/"+fn, "w");
-        file.print("Electra was Here ! ;-)"); 
+        ESPxWebFlMgr_FileSystem.open("/"+fn, "w");                  // no safety checks
+        File file = LittleFS.open("/"+fn, "w");                     // no safety checks
+        file.print("Electra was Here ! ;-)");                       // zip does not like empty files dos not unzip
         
       //}    
     //}

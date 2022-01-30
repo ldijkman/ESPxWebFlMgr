@@ -38,6 +38,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
             </div>
         </div>
         <div class="m2" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" onclick="fileopen();">
+        <input type="file" id="fileinput" hidden/>
            <img src="--filedrop.png" width="70" height="70" title="dragg files here to upload files">
           <br>
        
@@ -253,35 +254,28 @@ function uploadFile(file, islast) {
   var formdata = new FormData();
   formdata.append('uploadfile', file);
   // not sure why, but with that the upload to esp32 is stable.
-  formdata.append('dummy', 'dummy');
+ formdata.append('dummy', 'dummy');
   xhr.send(formdata);
 }
 
 
 ////////////////////////////////////////////////////////////////////////
 function fileopen(file, islast) {
-
-alert("fileopen, Electra says i do no know how to do that");
-
-  uploaddone = false;
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function () {
-    // console.log(xhr.status);
-    var DONE = this.DONE || 4;
-    if (this.readyState === DONE) {
-      if (islast) {
-        getfileinsert();
-        console.log('last file');
-      }
-      uploaddone = true;
-    }
-  };
+///////
+document.getElementById('fileinput').click();
+//alert("fileopen, Electra says i do no know how to do that");
+file = document.getElementById('fileinput').value;
+ console.log(file);
+ 
+   var xhr = new XMLHttpRequest();
   xhr.open('POST', '/r');
   var formdata = new FormData();
   formdata.append('uploadfile', file);
   // not sure why, but with that the upload to esp32 is stable.
-  formdata.append('dummy', 'dummy');
+  //formdata.append('dummy', 'dummy');
   xhr.send(formdata);
+
+
 }
 ////////////////////////////////////////////////////////////////////////
 

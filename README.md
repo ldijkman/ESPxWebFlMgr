@@ -260,4 +260,6 @@ i must have forgot something
 
 http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
-# Share your Skin!
+# Share your Skin! 
+ 
+ Black or White, Fat or Slim, Minimal or Maximal.

@@ -147,6 +147,8 @@ all small script files, the biggest codemirror.js i allready have for the editor
 # Fiddle With Electra served from ESP8266
 ## warning fiddling with Electra can kill you
 
+just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWebFlMgr/tree/master/jsbin-jsfiddle-clone nothing coded yet
+
 ![2022-01-30-202422_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151714302-fa77ad26-2e67-49f7-a354-336a369e387f.png)
 
 ---

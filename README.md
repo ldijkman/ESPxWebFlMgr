@@ -118,6 +118,10 @@ editor => codemirror syntax highlight and line numbers,   no external Js, compre
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-29-035103_1360x768_scrot.png">
 
+the eye previev opens iframed with a backlink
+
+<img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-30-073702_1360x768_scrot.png">
+
 ---
 
 Alexander W. on Facebook commented => looks like LCARS

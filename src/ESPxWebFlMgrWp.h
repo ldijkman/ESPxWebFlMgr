@@ -575,6 +575,12 @@ div {
   display: grid;
   grid-template-columns: repeat(3, max-content);  
 }  
+
+.CodeMirror {
+      resize: vertical;
+      overflow: auto !important;
+    }
+    
   )==g==";
 
 

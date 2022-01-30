@@ -8,7 +8,9 @@
     </head>
     
     <body bgcolor="#FE9A00">
-      <center> <a  href="/"><h2>Back to FileManager</h2></a></center><br>
+      <center> <a  href="/"><h2>Back to FileManager</h2>
+</a><input type="label" id="label">
+</center><br>
         <iframe id="myIframe" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
    <center>
      <a  href="/"><h2>Back to FileManager</h2></a><br>
@@ -35,6 +37,7 @@
             let adsURL = endpoint+file;
             console.log(adsURL);
             myIframe.src = adsURL;
+            document.getElementById("label").value=adsURL;
         </script>
         
         <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->

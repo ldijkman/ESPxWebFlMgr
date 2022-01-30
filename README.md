@@ -262,4 +262,4 @@ http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 
 # Share your Skin! 
  
- Black or White, Fat or Slim, Minimal or Maximal.
+ Black or White, Fat or Slim, Minimal or Maximal, Dusty or Fururistic.

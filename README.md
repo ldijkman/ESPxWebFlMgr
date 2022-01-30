@@ -122,6 +122,11 @@ the eye previev opens iframed with a backlink
 
 <img src="https://github.com/ldijkman/ESPxWebFlMgr/blob/master/img/2022-01-30-073702_1360x768_scrot.png">
 
+# wow can Electra have her own JSiddle Clone
+
+![2022-01-30-155239_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151705996-d8104788-b9a0-4fec-8d44-42fb056e111b.png)
+
+
 ---
 
 Alexander W. on Facebook commented => looks like LCARS

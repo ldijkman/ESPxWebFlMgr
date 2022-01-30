@@ -153,7 +153,7 @@ original https://github.com/holgerlembke/ESPxWebFlMgr
 
 
 
-# Stuff I used
+# Stuff Holger used
 
 * CRC32 from https://github.com/bakercp/CRC32
 * gzip-js from https://www.npmjs.com/package/gzip-js

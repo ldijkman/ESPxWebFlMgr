@@ -8,7 +8,7 @@ ESP8266 FileManager <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_
 
 <b>SIEMENS</b> related, People first read the license at the bottom ?!
 
-# &euro;100 Euro for the first that gives a working code 
+# &euro; 100 Euro for the first that gives a working code 
 
 ## for this Filemanager on ESPAsyncWebServer? (ESP8266)
 

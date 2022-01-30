@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Programmatically passing URL parameters to IFrame using JavaScript
+          <!-- https://gist.github.com/Virksaabnavjot/bbe6f5fb5df98e3101d13cdcddba413c-->
+          <meta name="copyright" content="Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands, https://github.com/ldijkman/ESPxWebFlMgr" />
+      </title>
+    </head>
+    
+    <body>
+      <center> <a  href="/"><h2>Back to FileManager</h2></a></center><br>
+        <iframe id="myIframe" frameborder="0" marginwidth="0" marginheight="0" scrolling="YES" width="80%" height="80%"></iframe><br>
+   <center>
+     <a  href="/"><h2>Back to FileManager</h2></a><br>
+     https://github.com/ldijkman/ESPxWebFlMgr<br>
+     </center><br>
+    
+      <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->
+      
+     
+
+    <script>
+            let myIframe = document.getElementById("myIframe");
+            let endpoint = "";
+            let url_string = window.location.href;
+            let url = new URL(url_string);
+            console.log(url_string);
+       
+            let file = url.searchParams.get("file");
+            console.log(file);
+           let geo = url.searchParams.get("geo");
+            console.log(geo);
+            let adsURL = endpoint+file;
+            console.log(adsURL);
+            myIframe.src = adsURL;
+        </script>
+      <!-- https://gist.github.com/Virksaabnavjot/bbe6f5fb5df98e3101d13cdcddba413c-->
+     </body>
+</html>

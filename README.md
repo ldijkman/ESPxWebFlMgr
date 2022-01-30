@@ -1,7 +1,7 @@
 ESP8266 FileManager <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/raw/main/images/esp_8266_nodemcu.png" width="200" height="200">https://www.google.com/search?q=ESP8266+nodemcu
 
-## NOTE: issue on the persistance of credentials in the core3.x of 8266, which does not work
-## Solution => https://github.com/ldijkman/ESPxWebFlMgr/issues/3
+### NOTE: issue on the persistance of credentials in the core3.x of 8266, which does not work
+### Solution => https://github.com/ldijkman/ESPxWebFlMgr/issues/3
 
 ---
 

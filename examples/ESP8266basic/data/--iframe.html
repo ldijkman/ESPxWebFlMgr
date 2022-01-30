@@ -9,7 +9,7 @@
     
     <body bgcolor="#FE9A00">
       <center> <a  href="/"><h2>Back to FileManager</h2></a></center><br>
-        <iframe id="myIframe" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
+        <iframe id="FRM" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
    <center>
      <a  href="/"><h2>Back to FileManager</h2></a><br>
      https://github.com/ldijkman/ESPxWebFlMgr<br>
@@ -20,7 +20,10 @@
      
 
     <script>
-            let myIframe = document.getElementById("myIframe");
+var x = document.getElementById("FRM");
+            x.style.backgroundColor = "lightgrey";
+            let myIframe = document.getElementById("FRM");
+            
             let endpoint = "";
             let url_string = window.location.href;
             let url = new URL(url_string);
@@ -32,7 +35,7 @@
             console.log(geo);
             let adsURL = endpoint+file;
             console.log(adsURL);
-            myIframe.src = adsURL;
+            FRM = adsURL;
         </script>
         
         <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->

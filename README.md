@@ -169,6 +169,8 @@ you can create a bin file in Arduino IDE when pressing the check code V verify b
 
 check the compiler output text where the bin file is stored => upload it and rename it to firmware.bin
 
+in compiler text => Creating BIN file "/tmp/arduino_build_606192/ESP8266basic.ino.bin"
+
 ![2022-01-31-173251_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151834743-a5582054-5b35-49b4-b9b1-b443b1b08352.png)
 
 

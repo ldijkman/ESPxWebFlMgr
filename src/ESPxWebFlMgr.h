@@ -74,7 +74,7 @@ class ESPxWebFlMgr {
     WebServer * fileManager = NULL;
 #endif
     bool _ViewSysFiles = false;
-    String _SysFileStartPattern = "--";
+    String _SysFileStartPattern =  "\--"; // files that start with -- are hidden, Holger had  "\." do not like harder to delete in LINUX su sudo
     File fsUploadFile;
     String _backgroundColor = "black";
 

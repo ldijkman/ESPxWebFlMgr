@@ -156,6 +156,23 @@ just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWeb
 
 ---
 
+## Upgrade Electra from filemanager
+## ep8266 system Update/upgrade from firmware.bin 
+
+if firmware.bin is in the filemanager list uploaded
+
+press update button to perform update
+
+you can create a bin file when pressing the check code V verify button left of upload program
+
+check the compiler output text where the bin file is stored => upload it and rename it to firmware.bin
+
+![2022-01-31-173251_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151834743-a5582054-5b35-49b4-b9b1-b443b1b08352.png)
+
+
+
+---
+
 Alexander W. on Facebook commented => looks like LCARS
 
 Wikipedia => In the Star Trek fictional universe, LCARS is a computer operating system. Within Star Trek chronology

@@ -81,8 +81,8 @@ Some Changes, WishList ?:
 - a touch or click on dropzone should open a filebrowsebox for uploading (try to drag/drop files on phone, i cannot, dontknow)
 - maybe a new file create button
 - unzip button
-- textarea colored simple syntax higlighting
-- a button to show hidden --sysfiles
+- textarea colored simple syntax higlighting == CodeMirror
+- a checbox to show hidden --sysfiles
 - a button to upgrade the system firmware.BIN
 - Fiddling with Electra
 

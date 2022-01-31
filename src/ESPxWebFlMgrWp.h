@@ -64,7 +64,12 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
 <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="Update firmware.bin must be in file list" onclick="update();">
-  </body>
+<br><br>
+<input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="show hidden files" onclick="showhidden();">
+ 
+ <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="hide hidden files" onclick="hidehidden();">
+  
+   </body>
 </html>  
 
   )==x==";
@@ -146,6 +151,9 @@ function update(filename) {
   if (confirm("Really update " + filename)) {
     msgline("Please wait. update in progress...");
     executecommand("update=" + filename);
+         setTimeout(function () {
+        document.location.reload()
+    }, 1000);
   }
 }
 ///////////////////////////////////////////////////
@@ -377,6 +385,14 @@ function downloadall() {
   window.location.href = "/c?za=all";
   msgline("");
 }
+
+function showhidden() {
+ executecommand("showhidden=0");
+}
+function hidehidden() {
+ executecommand("showhidden=1");
+}
+
 
 //->
 window.onload = getfileinsert;

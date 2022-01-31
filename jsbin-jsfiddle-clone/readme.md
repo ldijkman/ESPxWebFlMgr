@@ -14,3 +14,7 @@ codemirror i allready have
 then 160kb extra uncompressed
 
 That Size is No problem for Electra
+
+---
+
+![2022-01-31-050448_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151737422-ac96f3fd-dd92-4f41-8a36-463cc5791683.png)

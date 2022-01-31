@@ -82,6 +82,9 @@ Some Changes, WishList ?:
 - maybe a new file create button
 - unzip button
 - textarea colored simple syntax higlighting
+- a button to show hidden --sysfiles
+- a button to upgrade the system firmware.BIN
+- Fiddling with Electra
 
 can you help shorten above wishlist?
 

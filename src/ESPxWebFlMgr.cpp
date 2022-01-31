@@ -788,6 +788,55 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
       ESPxWebFlMgr_FileSystem.remove("/"+fn);    // Add slash
     }
   }
+  
+  //////////////////////////////////////////////////////////////////////////////////////
+    // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
+  // one arg, "update", update
+  if ( (fileManager->args() == 1) && (fileManager->argName(0) == "update") ) {
+    String fn = fileManager->arg(0);
+    //if ( (_ViewSysFiles) || (allowAccessToThisFile(fn)) ) {
+      //ESPxWebFlMgr_FileSystem.remove("/"+fn);    // Add slash
+    //}
+    
+    Serial.println("Update Electra");
+    
+    File file = LittleFS.open("/firmware.bin", "r");
+    
+    if (!file)
+    {
+        Serial.println(PSTR("Failed to open file for reading"));
+       // answer = 0;
+    }
+  
+    size_t fileSize = file.size();
+
+        if (!Update.begin(fileSize))
+        {
+            Serial.println(PSTR("Not enough space for update"));
+        }  
+        
+     Serial.println("Update start from /firmware.bin");
+     Serial.println("Please Wait");
+     Update.writeStream(file);
+        
+          if (Update.end())
+            {
+                Serial.println("Succesful update");
+                Serial.println("reboot now");
+                Serial.println("");
+                ESP.restart();
+            }
+            else
+            {
+
+                Serial.println(PSTR("Error Occurred: ") + String(Update.getError()));
+            }
+        
+
+        file.close();
+  }
+  
+  ////////////////////////////////////////////////////////////////////////////////////////
 
   // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
   // one arg, "ren", rename

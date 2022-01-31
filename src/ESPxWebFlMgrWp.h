@@ -63,7 +63,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
 <a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
-
+<input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="Update firmware.bin must be in file list" onclick="update();">
   </body>
 </html>  
 
@@ -139,6 +139,16 @@ function deletefile(filename) {
     executecommand("del=" + filename);
   }
 }
+
+
+//////////////////////////
+function update(filename) {
+  if (confirm("Really update " + filename)) {
+    msgline("Please wait. update in progress...");
+    executecommand("update=" + filename);
+  }
+}
+///////////////////////////////////////////////////
 
 function renamefile(filename) {
   var newname = prompt("new name for " + filename, filename);

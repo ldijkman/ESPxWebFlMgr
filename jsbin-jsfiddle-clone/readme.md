@@ -13,4 +13,4 @@ codemirror i allready have
 
 then 160kb extra uncompressed
 
-thats no problem for Electra
+That Size is No problem for Electra

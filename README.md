@@ -157,13 +157,15 @@ just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWeb
 ---
 
 ## Upgrade Electra from filemanager
-## ep8266 system Update/upgrade from firmware.bin 
+## ESP8266 system Update/upgrade from firmware.bin 
+
+upload over the filemanager to update no programming usb cable needed
 
 if firmware.bin is in the filemanager list uploaded
 
 press update button to perform update
 
-you can create a bin file when pressing the check code V verify button left of upload program
+you can create a bin file in Arduino IDE when pressing the check code V verify button left of ->upload program button
 
 check the compiler output text where the bin file is stored => upload it and rename it to firmware.bin
 

@@ -7,7 +7,7 @@ https://github.com/swapnilmishra/jsbin-jsfiddle-clone
 
 made it minmin files --files ar not listed in ESP8266 filemanager == hidden
 
- String _SysFileStartPattern =  "\--"; // files that start with -- are hidden, Holger had  "\." do not like harder to delete in LINUX su sudo
+ String _SysFileStartPattern =  "/\--"; // files that start with -- are hidden, Holger had  "/\." do not like harder to delete in LINUX su sudo
 
 codemirror i allready have
 

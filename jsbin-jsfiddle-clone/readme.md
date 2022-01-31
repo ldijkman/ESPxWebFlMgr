@@ -1,7 +1,7 @@
 * output iframe html width is not correct i changed it for screenshots with chrome inspect console added a width 100%
 
 
-code from
+code / extracted files come from
 
 https://github.com/swapnilmishra/jsbin-jsfiddle-clone
 

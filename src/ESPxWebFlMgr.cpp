@@ -790,12 +790,12 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
   }
   
    // +--++--++--++--++--++--++--++--++--++--++--++--++--++--++--+
-  // one arg, showhidden=o or 1
+  // one arg, showhidden= 0 or 1
   if ( (fileManager->args() == 1) && (fileManager->argName(0) == "showhidden") ) {
     String fn = fileManager->arg(0);
-    Serial.print("showhidden");
+    Serial.print("showhidden=");Serial.println(fn);
     if(fn=="0")setSysFileStartPattern("\\");
-     if(fn=="1")setSysFileStartPattern("\--");
+    if(fn=="1")setSysFileStartPattern("\--");
   }
   
   //////////////////////////////////////////////////////////////////////////////////////

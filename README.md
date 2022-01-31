@@ -230,6 +230,8 @@ http://github.com/ldijkman/randomnerd_esp32_wifi_manager
  
  Black, White, Yellow or Pink, Fat or Slim, Minimal or Maximal, Dusty or Futuristic.
  
+ ---
+ 
  https://github.com/ldijkman/randomnerd_esp32_wifi_manager/tree/main/Skins
  
  ![2022-01-31-044913_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151736294-f389a85d-9c11-44f0-b233-daeecd2f0a5a.png)

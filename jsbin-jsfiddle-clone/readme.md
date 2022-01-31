@@ -1,5 +1,5 @@
 * output iframe html width is not correct i changed it for screenshots with chrome inspect console added a width 100%
-* its not in index.html its in one of the javascripts a one liner eval
+
 
 code from
 

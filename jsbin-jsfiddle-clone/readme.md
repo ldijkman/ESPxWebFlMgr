@@ -1,4 +1,4 @@
-* output iframe html width is not correct i changed it for screenshots with chrome inspect console added a width 100%
+* output iframe html width is not correct i changed it for screenshots with chromium inspect console added a width 100%
 
 
 code / extracted files come from

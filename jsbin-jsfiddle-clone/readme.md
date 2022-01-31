@@ -9,7 +9,7 @@ made it minmin files --files ar not listed in ESP8266 filemanager == hidden
 
  String _SysFileStartPattern =  "\\--"; // files that start with -- are hidden, Holger had  "\\." do not like, harder to delete in LINUX su sudo
 
-codemirror Electra allready has for the editor
+CodeMirror Electra allready has compressed for the editor
 
 then 160kb extra uncompressed
 

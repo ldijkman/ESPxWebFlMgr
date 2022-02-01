@@ -182,7 +182,7 @@ arduino ide creat a bin file, and where is it stored
 
 ---
 
-button showhidden --files button hidehidden --files should become a checkbox
+button showhidden --files, button hidehidden --files, should become a checkbox
 
 ![2022-02-01-040416_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151907419-7c9d481c-9f84-49f5-a0ff-fbba800f716e.png)
 

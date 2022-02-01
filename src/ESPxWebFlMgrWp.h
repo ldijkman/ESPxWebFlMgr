@@ -63,6 +63,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
 <a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
+<div id="updater"></div><br>
 <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value='Update "ESP8266basic.ino.bin" must be in file list' onclick="update();">
 <br><br>
 <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="show hidden files" onclick="showhidden();">
@@ -149,7 +150,8 @@ function deletefile(filename) {
 //////////////////////////
 function update(filename) {
   if (confirm("Really update with ESP8266basic.ino.bin")) {
-    msgline("Please wait. update in progress...");
+    msgline("<b>Please wait. update in progress...<b>");
+    document.getElementById("updater").innerHTML = '<font size="3" color="yellow">Please wait. update in progress...page is reloading. will reconnect</font>';
     executecommand("update=" + filename);
          setTimeout(function () {
         document.location.reload()

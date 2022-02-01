@@ -10,9 +10,11 @@ ESP8266 FileManager <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_
 
 # Raised &euro; 200 Euro for the first that gives a working code 
 
-## for this Filemanager on ESPAsyncWebServer? (ESP8266)
+## for this Filemanager to run on ESPAsyncWebServer? (ESP8266)
 
-like it is now, working on ESP8266WebServer
+like it is now, 
+
+Now running / working on ESP8266WebServer
 
 ---
 

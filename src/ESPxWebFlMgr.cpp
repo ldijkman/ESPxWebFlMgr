@@ -809,7 +809,7 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
     
     Serial.println("Update Electra");
     
-    File file = LittleFS.open("/firmware.bin", "r");
+    File file = LittleFS.open("/ESP8266basic.ino.bin", "r");
     
     if (!file)
     {

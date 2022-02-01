@@ -163,6 +163,7 @@ just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWeb
 upload over the filemanager to update no programming usb cable needed
 
 if firmware.bin is in the filemanager list uploaded
+- note: changed /ESP8266basic.ino.bin so no rename is needed just drag and drop on filemanager file upload
 
 press update button to perform update
 

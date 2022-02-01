@@ -63,7 +63,7 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Electra">Electra Copyright &copy; 2022 Dirk Luberth Dijkman</a><br>
 <a href="https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE" target="SIEMENS">Not Allowed to be used by SIEMENS.</a><br>
 </center>
-<input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="Update /ESP8266basic.ino.bin must be in file list" onclick="update();">
+<input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value='Update "ESP8266basic.ino.bin" must be in file list' onclick="update();">
 <br><br>
 <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="show hidden files" onclick="showhidden();">
  
@@ -603,7 +603,7 @@ div {
 }  
 
 .CodeMirror {
-      resize: vertical;
+      resize: both;
       overflow: auto !important;
     }
     

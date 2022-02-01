@@ -85,6 +85,7 @@ Some Changes, WishList ?:
 - a checbox to show hidden --sysfiles
 - a button to upgrade the system firmware.BIN
 - Fiddling with Electra
+- share files between electra clones http://kitchen.local garage.local living.local etc. for skins and firmware.bin
 
 can you help shorten above wishlist?
 
@@ -173,7 +174,11 @@ in compiler text => Creating BIN file "/tmp/arduino_build_606192/ESP8266basic.in
 
 ![2022-01-31-173251_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151834743-a5582054-5b35-49b4-b9b1-b443b1b08352.png)
 
+---
 
+arduino ide creat a bin file, and where is it stored
+
+![2022-02-01-035207_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151906785-d47a68d5-44e7-4ddc-9504-07dda0967ec3.png)
 
 ---
 

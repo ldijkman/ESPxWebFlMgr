@@ -824,7 +824,7 @@ void ESPxWebFlMgr::fileManagerCommandExecutor(void) {
             Serial.println(PSTR("Not enough space for update"));
         }  
         
-     Serial.println("Update start from /firmware.bin");
+     Serial.println("Update start from /ESP8266basic.ino.bin");
      Serial.println("Please Wait");
      Update.writeStream(file);
         

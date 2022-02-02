@@ -177,6 +177,8 @@ in compiler text => Creating BIN file "/tmp/arduino_build_606192/ESP8266basic.in
 
 video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a micophone, bet you can, make a better video?
 
+(pi 400 drops USB (20 year old USB logitech webcam wich i could use as microphone. think on poweruse)
+
 ![2022-01-31-173251_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151834743-a5582054-5b35-49b4-b9b1-b443b1b08352.png)
 
 ---

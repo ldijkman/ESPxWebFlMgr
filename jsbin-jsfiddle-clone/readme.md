@@ -15,6 +15,12 @@ then 160kb extra uncompressed
 
 That Size is No problem for Electra
 
+another clone at https://hugolpz.medium.com/codemirror-js-kick-starter-ba7c999e20
+
+https://jsfiddle.net/luberth/7rba835L/
+
 ---
 
 ![2022-01-31-050448_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151737422-ac96f3fd-dd92-4f41-8a36-463cc5791683.png)
+
+another clone at https://hugolpz.medium.com/codemirror-js-kick-starter-ba7c999e20

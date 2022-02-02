@@ -175,11 +175,15 @@ check the compiler output text where the bin file is stored => upload it and ren
 
 in compiler text => Creating BIN file "/tmp/arduino_build_606192/ESP8266basic.ino.bin"
 
+video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a micophone, bet you can, make a better video?
+
 ![2022-01-31-173251_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151834743-a5582054-5b35-49b4-b9b1-b443b1b08352.png)
 
 ---
 
 arduino ide creat a bin file, and where is it stored
+
+video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a micophone, bet you can, make a better video?
 
 ![2022-02-01-035207_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151906785-d47a68d5-44e7-4ddc-9504-07dda0967ec3.png)
 

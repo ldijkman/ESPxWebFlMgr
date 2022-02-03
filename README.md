@@ -288,3 +288,5 @@ http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 # Electra 4 YouToo!?
 
 impressive Espressif
+
+A penny for sharing my thoughts => Http://paypal.me/LDijkman

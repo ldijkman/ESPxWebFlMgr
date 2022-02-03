@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Try it yourself editor</title>
+		<title>Try it YourSelf Editor, Try-it with Electra</title>
 		<style type="text/css">
 			textarea, iframe {
     			border: 2px solid #ddd;
@@ -13,25 +13,30 @@
 	</head>
     <body>
         <table width="100%" border="0" cellspacing="5" cellpadding="5">
-            <tr>
-                <td width="50%" scope="col">&nbsp;</td>
+<!--  
+              <tr>
+                <td width="10%" scope="col">&nbsp;</td>
                 <td width="50%" align="left" scope="col">
-                    <input onclick="runCode();" type="button" value="Run Code">
+                    <input onclick="runCode();" type="button" value="Run Code"> 
                 </td>
             </tr>
+removed by dirk luberth dijkman  made it call oninput textara 
+-->
             <tr>
                 <td> 
                     <form>
-                        <strong>Code</strong>
-                       <textarea name="sourceCode" id="sourceCode" oninput="runCode();">
+                        <strong>HTML, CSS, JavaScript Code</strong>
+                        <textarea name="sourceCode" id="sourceCode" oninput="runCode();">
 <html>
 <head>
-<title>Hello</title>
+<title>Try-it with Electra</title>
 </head>
 <body>
 <h1>Hello!</h1>
-<p>Write HTML, CSS or JavaScript code here and click 'Run Code'.</p>
-           
+<hr>
+<p>Write HTML, CSS or JavaScript code.</p>
+ <hr 50%> 
+<b>bold</b>         
 
 </body>
 </html>
@@ -54,10 +59,12 @@
             }
             runCode();
         </script>
-	    <br><center>
+	    <br>
+<center>
 <a href="https://github.com/ldijkman/ESPxWebFlMgr" target="Hey_Electra_flmgr">https://github.com/ldijkman/ESPxWebFlMgr</a><br>
 <br>
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Hey_Electra">https://github.com/ldijkman/randomnerd_esp32_wifi_manager</a><br>
-	    </center>
-	    </body>
+</center>
+    
+</body>
 </html>

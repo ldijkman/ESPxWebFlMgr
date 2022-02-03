@@ -149,6 +149,8 @@ looks like 160kb extra file uncompressed
 
 just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWebFlMgr/tree/master/jsbin-jsfiddle-clone nothing coded yet
 
+https://www.youtube.com/watch?v=K94DvxUGsOo
+
 ![2022-01-30-202422_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151714302-fa77ad26-2e67-49f7-a354-336a369e387f.png)
 
 ---
@@ -156,6 +158,8 @@ just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWeb
 simpler try-it.html just a few lines
 
 warning does not save your work (copy / paste?)
+
+https://www.youtube.com/watch?v=K94DvxUGsOo
 
 ![2022-02-03-062911_1360x768_scrot](https://user-images.githubusercontent.com/45427770/152286760-d9d9692b-5a7d-4db0-88c8-13c90385d8b8.png)
 
@@ -178,7 +182,7 @@ check the compiler output text where the bin file is stored => upload it and ren
 
 in compiler text => Creating BIN file "/tmp/arduino_build_606192/ESP8266basic.ino.bin"
 
-video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a micophone, bet you can, make a better video?
+video on youtube https://www.youtube.com/watch?v=K94DvxUGsOo
 
 (pi 400 drops USB (20 year old USB logitech webcam wich i could use as microphone. think on poweruse)
 
@@ -188,7 +192,7 @@ video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a
 
 arduino ide creat a bin file, and where is it stored
 
-video on youtube https://youtu.be/etcRYOpT62U sorry, no sound must search/find a micophone, bet you can, make a better video?
+video on youtube https://www.youtube.com/watch?v=K94DvxUGsOo
 
 ![2022-02-01-035207_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151906785-d47a68d5-44e7-4ddc-9504-07dda0967ec3.png)
 

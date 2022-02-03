@@ -266,7 +266,7 @@ Skins html/css for the main page editable uploadeble so create your own look for
 
 each device its own filemanager/editor/upload/download
 
-i must have forgot something
+i must have forgot something, maybe no ads & data pricacy
 
 http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 

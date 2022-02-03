@@ -69,7 +69,11 @@ static const char ESPxWebFlMgrWpindexpage[] PROGMEM = R"==x==(
 <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="show hidden files" onclick="showhidden();">
  
  <input type="button"  style="background-color:#CC6666; border-color:#CC6666; color:white; height:19px;" value="hide hidden files" onclick="hidehidden();">
-  
+<br>
+<br>
+<input type="checkbox" id="showhide" onclick="showhide()">
+<label for="myCheck"><font color="orange">Show Hidden</font></label> 
+
    </body>
 </html>  
 
@@ -388,8 +392,13 @@ function downloadall() {
   msgline("");
 }
 
-function showhidden() {
- executecommand("showhidden=0");
+
+function showhide() {
+  if (document.getElementById("showhide").checked==true)executecommand("showhidden=0");
+  if (document.getElementById("showhide").checked==false)executecommand("showhidden=1");
+}
+function showhidden(value) {
+executecommand("showhidden=0");
 }
 function hidehidden() {
  executecommand("showhidden=1");

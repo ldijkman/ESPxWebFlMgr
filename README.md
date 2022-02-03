@@ -142,13 +142,7 @@ even better as jsfiddle or codepen
 
 all small script files, the biggest codemirror.js i allready have for the editor
 
-![2022-01-30-165841_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151707142-ac420d06-1d6b-4711-b356-e91887cbeabf.png)
-
-### looks like 160kb extra file uncompressed
-
-![2022-01-30-182031_1360x768_scrot](https://user-images.githubusercontent.com/45427770/151710059-1e967987-f2a4-486b-9e5e-521ba28bf125.png)
-
----
+looks like 160kb extra file uncompressed
 
 # Fiddle With Electra served from ESP8266
 ## Warning Fiddling with Electra can Kill you!

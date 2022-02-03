@@ -159,6 +159,15 @@ just an upload  files to esp8266 filemanager https://github.com/ldijkman/ESPxWeb
 
 ---
 
+simpler try-it.html just a few lines
+
+warning does not save your work (copy / paste?)
+
+![2022-02-03-062911_1360x768_scrot](https://user-images.githubusercontent.com/45427770/152286760-d9d9692b-5a7d-4db0-88c8-13c90385d8b8.png)
+
+
+---
+
 ## Upgrade Electra from filemanager
 ## ESP8266 system Update/upgrade from firmware.bin 
 

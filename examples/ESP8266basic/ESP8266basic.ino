@@ -1,4 +1,9 @@
 /*
+ * 
+ *  http://filemanager.local:8080
+ * 
+ * 
+ * 
   The define ESPxWebFlMgr_FileSystem holds the selected filesystem in (surprise!) ESPxWebFlMgr.
 
   You can
@@ -44,10 +49,11 @@
 #define ESPxWebFlMgr_FileSystem LittleFS
 #include <ESPxWebFlMgr.h>
 #include <FS.h>
+#include <ESP8266mDNS.h>
 
 
-String ssid = "Bangert-30-Andijk"; // wifirouter to connect to name broadcasted in the air
-String pass = "ikwilerin";        // wifi router password
+String ssid = "Bangert_30_Andijk"; // wifirouter to connect to name broadcasted in the air
+String pass = "ookikwilerin";        // wifi router password
 
 const word filemanagerport = 8080;
 
@@ -82,11 +88,22 @@ void setup() {
     Serial.print("/");
     Serial.println();
   }
+ if (!MDNS.begin("filemanager")) {
+    Serial.println("Error setting up MDNS responder!");
+    while (1) {
+      delay(1000);
+    }
+  }
 
+  MDNS.addService("http", "tcp", 8080);
+
+  Serial.print("http://filemanager.local:8080");
+  
   filemgr.begin();
 }
 
 
 void loop() {
   filemgr.handleClient();
+  MDNS.update();   // looks like this is needed only for esp8266 otherwise i dont see mdns url in bonjourbrowser not needed for esp32
 }

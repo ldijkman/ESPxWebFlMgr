@@ -299,3 +299,5 @@ http://github.com/ldijkman/randomnerd_esp32_wifi_manager
 impressive Espressif
 
 A penny for sharing my thoughts => Http://paypal.me/LDijkman
+
+chrome devellopers => change request => selectalll/paste, sellectall/copy => make that buttons

@@ -298,4 +298,4 @@ impressive Espressif
 
 A penny for sharing my thoughts => Http://paypal.me/LDijkman
 
-The power of Electra wil run on an Gazzilion devices soon ;-)
+The power of Electra wil run on an Gazilion devices soon ;-)

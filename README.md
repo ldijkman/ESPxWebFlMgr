@@ -298,4 +298,4 @@ impressive Espressif
 
 A penny for sharing my thoughts => Http://paypal.me/LDijkman
 
-chrome devellopers => change request => selectalll/paste, sellectall/copy => make that buttons
+The power of Electra wil run on an Gazzilion devices soon ;-)

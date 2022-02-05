@@ -300,3 +300,7 @@ impressive Espressif
 A penny for sharing my thoughts => Http://paypal.me/LDijkman
 
 Soon, The power of Electra wil run on an Gazilion devices! ;-)
+
+All you need is Electra!
+
+

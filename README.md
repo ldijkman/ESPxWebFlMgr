@@ -88,6 +88,7 @@ Some Changes, WishList ?:
 - a button to upgrade the system firmware.BIN
 - Fiddling with Electra
 - share files between electra clones http://kitchen.local garage.local living.local etc. for skins and firmware.bin
+- Try-it Editor/previewer that can open/save and add an icon on filelist <img src"https://github.com/ldijkman/ESPxWebFlMgr/blob/master/examples/ESP8266basic/data/--try-it.png">
 
 can you help shorten above wishlist?
 

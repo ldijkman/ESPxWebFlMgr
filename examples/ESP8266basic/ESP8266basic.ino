@@ -2,7 +2,13 @@
  * 
  *  http://filemanager.local:8080
  * 
- * 
+ *  
+ https://www.youtube.com/watch?v=5wrMgU-uW78
+
+ https://youtu.be/K94DvxUGsOo
+ 
+ 
+ 
  * 
   The define ESPxWebFlMgr_FileSystem holds the selected filesystem in (surprise!) ESPxWebFlMgr.
 

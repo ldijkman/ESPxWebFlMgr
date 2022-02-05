@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Webcam
+    </title> 
+</head>
+  
+<body>
+<video id="video" width="160px" height="120px" autoplay></video>
+<script>
+
+
+            var video = document.getElementById('video'),
+                vendorUrl = window.URL || window.webkitURL;
+            if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function (stream) {
+                        video.srcObject = stream;
+                    }).catch(function (error) {
+                        console.log("Something went wrong!");
+                    });
+            }
+ 
+    </script>
+</body>
+  
+</html>

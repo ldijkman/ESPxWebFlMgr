@@ -13,7 +13,7 @@
       <center> Possible its possible to create an jsfiddle / codepen.io alike editor on the ESP8266.<br>
           <a  href="https://github.com/swapnilmishra/jsbin-jsfiddle-clone">jsbin-jsfiddle-clone is smart</a><br>
           <h2><a  href="/">Back to FileManager</h2>
-</a><input type="label" id="label">
+</a><div id="label"></div>
 </center><br>
         <iframe id="myIframe" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
    <center>Possible its possible to create an jsfiddle / codepen.io alike editor on the ESP8266.<br>
@@ -48,7 +48,7 @@
             let adsURL = endpoint+file;
             console.log(adsURL);
             myIframe.src = adsURL;
-            document.getElementById("label").value=adsURL;
+            document.getElementById("label").innerHTML="<a href=\""+file+"\">unframed => "+file+"<a>";
         </script>
         
         <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->

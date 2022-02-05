@@ -1,55 +1,87 @@
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>
-            Electra's Filemanager iframed preview
-        </title>
-           <link rel="icon" type="image/png" href="favicon.png">
-           <link rel="icon" sizes="192x192" href="Electra_192x192.png">
-          <!-- https://gist.github.com/Virksaabnavjot/bbe6f5fb5df98e3101d13cdcddba413c-->
-          <meta name="copyright" content="Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands, https://github.com/ldijkman/ESPxWebFlMgr" />
-    </head>
-    
-    <body bgcolor="#FE9A00">
-    <center> 
-      <a  href="/">Back to FileManager </a><input type="label" id="label">          
-    </center>
-    <iframe id="myIframe" frameborder="1" marginwidth="0" marginheight="0" scrolling="YES" width="100%" height="80%"></iframe><br>
-    <center>Possible its possible to create an jsfiddle / codepen.io alike editor on the ESP8266.<br>
-    <a  href="/"><h2>Back to FileManager</h2></a>
-    <a href="https://github.com/ldijkman/ESPxWebFlMgr" target="heyElectra">https://github.com/ldijkman/ESPxWebFlMgr</a><br>
-<br>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Try it YourSelf Editor, Try-it with Electra</title>
+		<style type="text/css">
+			textarea, iframe {
+    			border: 2px solid #ddd;
+    			height: 500px;
+    			width: 100%;	  
+			}
+    	</style>
+	</head>
+    <body bgcolor="grey">
+        <table width="100%" border="0" cellspacing="5" cellpadding="5">
+<!--  
+              <tr>
+                <td width="10%" scope="col">&nbsp;</td>
+                <td width="50%" align="left" scope="col">
+                    <input onclick="runCode();" type="button" value="Run Code"> 
+                </td>
+            </tr>
+removed by dirk luberth dijkman  made it call oninput textara 
+-->
+            <tr>
+                <td> 
+                    <form>
+                        <strong>HTML, CSS, JavaScript Code</strong>
+                        <textarea name="sourceCode" id="sourceCode" oninput="runCode();" style="color: black; background-color: lightgrey">
+<html>
+<head>
+<title>Try-it with Electra</title>
+</head>
+
+<body bgcolor="orange">
+
+<h1>Electra says Hello!</h1>
+<hr>
+<p>Write HTML, CSS or JavaScript code.</p>
+<hr width=50%>  
+<b>bold text</b><br>         
+<center><b>bold text centered</b></center><br> 
+<code>
+ <textarea rows="20" cols="50">
+ Some HTML TAGS (not executed in this textarea)
+    <br>= linebreak
+    <b> = bold </b>
+    <a href="http://url" target="windowname">url text</a>
+    <hr> = line
+    <!-- Comment not shown in html -->
+    <center> center text or image </center>
+    <img src="http://image url">
+    <h1> big text h1 h2 h3 </h1>
+    <p> A paragraph </p>
+ </textarea>
+</code>
+
+</body>
+</html>
+                        </textarea>
+                    </form>
+                </td>
+                <td><strong>Output</strong><iframe name="targetCode" id="targetCode"></iframe></td>
+            </tr>
+        </table>  
+        <script type="text/javascript">
+            function runCode()
+            {
+                var content = document.getElementById('sourceCode').value;
+                var iframe = document.getElementById('targetCode');
+                iframe = (iframe.contentWindow) ? iframe.contentWindow : (iframe.contentDocument.document) ? iframe.contentDocument.document : iframe.contentDocument;
+                iframe.document.open();
+                iframe.document.write(content);
+                iframe.document.close();
+                return false;
+            }
+            runCode();
+        </script>
+	    <br>
+<center>
 <a href="https://github.com/ldijkman/ESPxWebFlMgr" target="Hey_Electra_flmgr">https://github.com/ldijkman/ESPxWebFlMgr</a><br>
 <br>
 <a href="https://github.com/ldijkman/randomnerd_esp32_wifi_manager" target="Hey_Electra">https://github.com/ldijkman/randomnerd_esp32_wifi_manager</a><br>
+</center>
     
- </center>
-<br>
-    
-      <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->
-      
-     
-
-    <script>
-            let myIframe = document.getElementById("myIframe");
-            myIframe.style.backgroundColor = "lightgrey";
-            
-            let endpoint = "";
-            let url_string = window.location.href;
-            let url = new URL(url_string);
-            console.log(url_string);
-       
-            let file = url.searchParams.get("file");
-            console.log(file);
-           let geo = url.searchParams.get("geo");
-            console.log(geo);
-            let adsURL = endpoint+file;
-            console.log(adsURL);
-            myIframe.src = adsURL;
-            document.getElementById("label").value=adsURL;
-        </script>
-        
-        <!-- http://192.168.178.16:8080/iframe.html?file=ON.gif-->
-        <!-- https://gist.github.com/Virksaabnavjot/bbe6f5fb5df98e3101d13cdcddba413c-->
-        <!-- Copyright ToDay Dirk Luberth Dijkman Bangert 30 Andijk The Netherlands, https://github.com/ldijkman/ESPxWebFlMgr -->
-     </body>
+</body>
 </html>

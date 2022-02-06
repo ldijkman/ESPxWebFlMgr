@@ -2,7 +2,7 @@ Microsoft windows users UGH, mDNS http://filemanager.local:8080 may not work for
 
 just install http://apple.com/itunes that makes mDNS http://filemanager.local:8080 to work for you
 
-wow microsoft realy sux to download this, must find a friendlier way to get mDNS working for you
+Bonjour for WinDOS might be eassier https://support.apple.com/kb/DL999?locale=nl_NL
 
 
 

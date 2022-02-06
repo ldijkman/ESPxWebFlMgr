@@ -205,6 +205,11 @@ button showhidden --files, button hidehidden --files, should become a checkbox
 
 ---
 
+### maybe it can be done even simpler with httpupdater lib via ccurl in serial monitor
+must have a look how and size of code and if it will work with espasynwebserver.h in future
+
+---
+
 Alexander W. on Facebook commented => looks like LCARS
 
 Wikipedia => In the Star Trek fictional universe, LCARS is a computer operating system. Within Star Trek chronology

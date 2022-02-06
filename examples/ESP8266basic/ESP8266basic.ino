@@ -1,13 +1,17 @@
 /*
  * 
- *  http://filemanager.local:8080
+ * 
+ *  http://filemanager.local:8080    => windows, android users => https://github.com/ldijkman/randomnerd_esp32_wifi_manager/blob/main/HELP.TXT
  * 
  *  
+ 
  https://www.youtube.com/watch?v=3kg8DjFIe7k
  
  https://www.youtube.com/watch?v=5wrMgU-uW78
 
- https://youtu.be/K94DvxUGsOo
+ https://youtu.be/K94DvxUGsOoxUGsOo
+ 
+ https://www.youtube.com/watch?v=pOvma-AF3lg
  
  
  

@@ -2,6 +2,8 @@ Microsoft windows users UGH, mDNS http://filemanager.local:8080 may not work for
 
 just install http://apple.com/itunes that makes mDNS http://filemanager.local:8080 to work for you
 
+wow microsoft realy sux to download this, must find a frienlier way
+
 
 
 ESP8266 FileManager <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/raw/main/images/esp_8266_nodemcu.png" width="200" height="200">https://www.google.com/search?q=ESP8266+nodemcu

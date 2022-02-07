@@ -4,6 +4,8 @@ just install http://apple.com/itunes that makes mDNS http://filemanager.local:80
 
 Bonjour for WinDOS might be eassier https://support.apple.com/kb/DL999?locale=nl_NL worked on windos 7 for me, above did not work
 
+it installs mDNSRespomder.exe Bonjour service see it in taskmanager
+
 
 
 ESP8266 FileManager <img src="https://github.com/ldijkman/randomnerd_esp32_wifi_manager/raw/main/images/esp_8266_nodemcu.png" width="200" height="200">https://www.google.com/search?q=ESP8266+nodemcu

@@ -4,7 +4,7 @@ just install http://apple.com/itunes that makes mDNS http://filemanager.local:80
 
 Bonjour for WinDOS might be eassier https://support.apple.com/kb/DL999?locale=nl_NL worked on windos 7 for me, above did not work
 
-it installs mDNSRespomder.exe Bonjour service see it in taskmanager
+it installs mDNSResponder.exe Bonjour service see it in taskmanager
 
 
 

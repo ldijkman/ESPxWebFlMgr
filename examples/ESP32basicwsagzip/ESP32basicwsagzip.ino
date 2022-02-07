@@ -1,3 +1,27 @@
+
+
+
+
+
+luberth => i did not use this example
+
+used examples/ESP8266basic/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include <WiFi.h>
 #include <FS.h>
 #include <LittleFS.h>

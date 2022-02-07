@@ -1,3 +1,14 @@
+
+
+luberth => i did not use this example!
+use the ESP8266basic example?
+
+
+
+
+
+
+
 // WARNING: This webserver has no access control. It servers everything from your ESP32 file system.
 // WARNING: This webserver has no access control. It servers everything from your ESP32 file system.
 WebServer * webserver = NULL;
